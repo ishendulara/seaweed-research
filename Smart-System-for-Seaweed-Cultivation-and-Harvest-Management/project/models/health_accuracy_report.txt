@@ -1,0 +1,42 @@
+==================================================
+INITIAL HEALTH CLASSIFICATION MODEL REPORT
+==================================================
+
+Classes: healthy_gracilaria, healthy_kappaphycus, unhealthy_gracilaria, unhealthy_kappaphycus
+
+PHASE 1 - Transfer Learning:
+  Best Training Accuracy: 0.8982
+  Best Validation Accuracy: 0.5556
+
+PHASE 2 - Fine-tuning:
+  Best Training Accuracy: 0.8084
+  Best Validation Accuracy: 0.5000
+
+FINAL RESULTS:
+  Training Accuracy: 0.7425
+  Validation Accuracy: 0.4722
+  Test Accuracy: 0.6571
+  Test Loss: 0.8744
+
+CONFIDENCE THRESHOLDS:
+  Recommended threshold (90% recall): 0.3764
+  Recommended threshold (95% recall): 0.3591
+
+CLASSIFICATION REPORT:
+                       precision    recall  f1-score   support
+
+   healthy_gracilaria       0.80      0.89      0.84         9
+  healthy_kappaphycus       0.62      0.62      0.62         8
+ unhealthy_gracilaria       0.45      0.56      0.50         9
+unhealthy_kappaphycus       0.83      0.56      0.67         9
+
+             accuracy                           0.66        35
+            macro avg       0.68      0.66      0.66        35
+         weighted avg       0.68      0.66      0.66        35
+
+
+CONFUSION MATRIX:
+[[8 0 1 0]
+ [1 5 2 0]
+ [1 2 5 1]
+ [0 1 3 5]]

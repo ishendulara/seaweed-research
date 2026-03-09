@@ -1,0 +1,42 @@
+==================================================
+SEMI-SUPERVISED HEALTH CLASSIFICATION REPORT
+==================================================
+
+Classes: healthy_gracilaria, healthy_kappaphycus, unhealthy_gracilaria, unhealthy_kappaphycus
+
+Labeled train images: 168
+Pseudo-labeled images: 105
+Total train images: 273
+Validation images: 36
+Test images: 36
+
+PHASE 1 - Transfer Learning:
+  Best Training Accuracy: 0.8901
+  Best Validation Accuracy: 0.6389
+
+PHASE 2 - Fine-tuning:
+  Best Training Accuracy: 0.8462
+  Best Validation Accuracy: 0.5556
+
+FINAL RESULTS:
+  Test Accuracy: 0.6944 (69.44%)
+  Test Loss: 0.8780
+
+CLASSIFICATION REPORT:
+                       precision    recall  f1-score   support
+
+   healthy_gracilaria       0.86      0.67      0.75         9
+  healthy_kappaphycus       0.89      0.89      0.89         9
+ unhealthy_gracilaria       0.43      0.67      0.52         9
+unhealthy_kappaphycus       0.83      0.56      0.67         9
+
+             accuracy                           0.69        36
+            macro avg       0.75      0.69      0.71        36
+         weighted avg       0.75      0.69      0.71        36
+
+
+CONFUSION MATRIX:
+[[6 0 3 0]
+ [0 8 1 0]
+ [1 1 6 1]
+ [0 0 4 5]]

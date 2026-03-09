@@ -1,0 +1,531 @@
+/* ============================================================
+   Prediction.css — Seaweed System Growth Monitoring
+   Strategy: targets raw HTML elements + common class patterns
+   so styles apply even without specific component class names.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+
+/* ── CSS Variables ────────────────────────────────────────── */
+:root {
+  --teal-800: #0d5c4a;
+  --teal-700: #0f6b56;
+  --teal-600: #1a7a63;
+  --teal-500: #2a9d82;
+  --teal-400: #3dbda0;
+  --teal-300: #6dd4bc;
+  --teal-100: #e6f7f3;
+  --teal-50:  #f0fbf8;
+
+  --accent-green:  #2ec97e;
+  --accent-amber:  #f9b74e;
+  --accent-orange: #f4845f;
+
+  --bg-page:   #f0f7f5;
+  --bg-card:   #ffffff;
+  --bg-subtle: #f5fbf9;
+
+  --text-primary:   #0d2e28;
+  --text-secondary: #4a7a6d;
+  --text-muted:     #8ab5aa;
+
+  --border-color: #c8e8e0;
+
+  --shadow-md: 0 4px 20px rgba(13,94,74,0.10);
+  --shadow-lg: 0 8px 32px rgba(13,94,74,0.16);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'DM Mono', monospace;
+  --transition: 0.22s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ── Global ───────────────────────────────────────────────── */
+* { box-sizing: border-box; }
+
+body { font-family: var(--font-sans); background: var(--bg-page); color: var(--text-primary); }
+
+/* ── Page Wrapper ─────────────────────────────────────────── */
+.prediction-page {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-page);
+  animation: fadeUp 0.45s ease both;
+}
+
+/* ── Page Section (content below header) ─────────────────── */
+.section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 28px 72px;
+}
+
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(16px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+/* ── Page Header ──────────────────────────────────────────── */
+.prediction-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 22px 40px;
+  background: linear-gradient(135deg, var(--teal-800) 0%, var(--teal-600) 100%);
+  border-radius: 0;
+  box-shadow: 0 4px 20px rgba(13,94,74,0.20);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Decorative background circles */
+.prediction-header::before,
+.prediction-header::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.06);
+  pointer-events: none;
+}
+.prediction-header::before {
+  width: 220px; height: 220px;
+  top: -80px; right: 60px;
+}
+.prediction-header::after {
+  width: 140px; height: 140px;
+  bottom: -60px; right: 200px;
+}
+
+.prediction-header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 1;
+}
+
+.prediction-header-icon {
+  width: 52px; height: 52px;
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  backdrop-filter: blur(4px);
+  flex-shrink: 0;
+}
+
+.prediction-header-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 4px;
+  letter-spacing: -0.5px;
+}
+
+.prediction-header-sub {
+  font-size: 13px;
+  color: rgba(255,255,255,0.72);
+  margin: 0;
+  font-weight: 400;
+}
+
+.prediction-header-badge {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  padding: 7px 14px;
+  border-radius: 99px;
+  backdrop-filter: blur(4px);
+  z-index: 1;
+}
+
+.badge-dot {
+  width: 7px; height: 7px;
+  background: var(--accent-green);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(46,201,126,0.35);
+  animation: pulse 2s ease infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(46,201,126,0.35); }
+  50%       { box-shadow: 0 0 0 5px rgba(46,201,126,0.15); }
+}
+
+@media(max-width:600px){
+  .prediction-header { flex-direction: column; align-items: flex-start; gap: 14px; padding: 18px; }
+  .prediction-header-title { font-size: 20px; }
+}
+
+/* ── Card Grid ────────────────────────────────────────────── */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media(max-width:860px){ .card-grid { grid-template-columns:1fr; } }
+
+/* ── Cards ────────────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+
+/* Teal top bar */
+.card::before {
+  content: '';
+  position: absolute;
+  top:0; left:0; right:0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal-700), var(--teal-400));
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+}
+
+.card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+
+/* Chart card */
+.chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: 24px;
+}
+
+/* ── ALL h2, h3 inside cards ──────────────────────────────── */
+.card h2, .card h3, .chart-card h2, .chart-card h3 {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 1.5px solid var(--border-color);
+  letter-spacing: -0.3px;
+}
+
+.card p { font-size: 13px; color: var(--text-secondary); margin: 0 0 14px; }
+
+/* ── Labels ───────────────────────────────────────────────── */
+.card label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+  margin-bottom: 5px;
+  margin-top: 14px;
+}
+
+/* ── Inputs & Selects ─────────────────────────────────────── */
+.card input,
+.card select {
+  width: 100%;
+  padding: 10px 14px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+  background: var(--bg-subtle);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
+  margin-bottom: 12px;
+}
+
+.card input:focus,
+.card select:focus {
+  border-color: var(--teal-500);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(42,157,130,0.15);
+}
+
+.card input::placeholder { color: var(--text-muted); font-weight: 400; }
+
+/* Custom select arrow */
+.card select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%234a7a6d' stroke-width='1.8' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 13px center;
+  padding-right: 36px;
+  cursor: pointer;
+}
+
+/* ── All Buttons ──────────────────────────────────────────── */
+.card button {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  border: none;
+  padding: 10px 16px;
+  transition: all var(--transition);
+}
+
+/* Primary action / predict button — usually last button or has "predict"/"submit" in class/text */
+.card button:last-of-type,
+.card button[class*="predict" i],
+.card button[class*="submit" i],
+.card button[class*="primary" i],
+.btn-predict {
+  width: 100%;
+  padding: 13px 24px;
+  background: linear-gradient(135deg, var(--teal-700), var(--teal-500));
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 14px rgba(15,107,86,0.28);
+  margin-top: 6px;
+}
+
+.card button:last-of-type:hover,
+.btn-predict:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(15,107,86,0.38);
+}
+
+/* Secondary / create new button */
+.card button:not(:last-of-type),
+.card button[class*="create" i],
+.card button[class*="new" i],
+.card button[class*="secondary" i] {
+  background: var(--teal-700);
+  color: #fff;
+  padding: 8px 14px;
+  font-size: 12px;
+}
+
+.card button:not(:last-of-type):hover { background: var(--teal-600); }
+
+/* ── Progress Bar ─────────────────────────────────────────── */
+.progress-track {
+  height: 12px;
+  background: var(--teal-100);
+  border-radius: 99px;
+  overflow: hidden;
+  margin: 10px 0 6px;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--teal-700), var(--teal-400), var(--accent-green));
+  background-size: 200% 100%;
+  animation: shimmer 2.5s linear infinite;
+  transition: width 1s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* Generic progress bar targets (if component uses div-based bars) */
+[class*="progress-bar" i] > div,
+[class*="progressbar" i] > div,
+[class*="bar-fill" i] {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--teal-700), var(--teal-400), var(--accent-green));
+  background-size: 200% 100%;
+  animation: shimmer 2.5s linear infinite;
+  transition: width 1s ease;
+}
+
+[class*="progress-bar" i],
+[class*="progressbar" i] {
+  height: 12px;
+  background: var(--teal-100);
+  border-radius: 99px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Stage / percentage text */
+[class*="stage" i],
+[class*="progress" i] > p,
+[class*="progress" i] > span {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ── Prediction Summary Stats ─────────────────────────────── */
+.prediction-summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.summary-stat {
+  background: linear-gradient(135deg, var(--teal-50), #fff);
+  border: 1.5px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  text-align: center;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.summary-stat:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
+.summary-stat .stat-value {
+  font-family: var(--font-mono);
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--teal-700);
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.summary-stat .stat-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+/* ── Alert Box ────────────────────────────────────────────── */
+.alert-box { margin-bottom: 14px; }
+
+.alert-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  animation: alertIn 0.3s ease both;
+}
+
+.alert-item.info    { background:#e8f4fd; border:1px solid #b3d9f5; color:#1a6496; }
+.alert-item.success { background:#e6f9f0; border:1px solid #a3e4c4; color:#1a7a4a; }
+.alert-item.warning { background:#fff8e6; border:1px solid #fcd08a; color:#8a5d00; }
+
+@keyframes alertIn {
+  from { opacity:0; transform:translateX(-6px); }
+  to   { opacity:1; transform:translateX(0); }
+}
+
+/* ── History Table Section ────────────────────────────────── */
+[class*="history" i],
+[class*="table-wrap" i] {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+  margin-top: 24px;
+  margin-left: 28px;
+  margin-right: 28px;
+  overflow: hidden;
+}
+
+[class*="history" i] h3 {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 1.5px solid var(--border-color);
+}
+
+/* ── Table ────────────────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+thead { background: linear-gradient(90deg, var(--teal-800), var(--teal-700)); }
+
+thead th {
+  padding: 13px 16px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.88);
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  white-space: nowrap;
+}
+
+tbody tr { border-bottom: 1px solid var(--border-color); transition: background var(--transition); }
+tbody tr:last-child { border-bottom: none; }
+tbody tr:hover { background: var(--teal-50); }
+tbody tr:nth-child(even) { background: var(--bg-subtle); }
+tbody tr:nth-child(even):hover { background: var(--teal-50); }
+tbody td { padding: 12px 16px; color: var(--text-primary); vertical-align: middle; }
+
+/* ── Species & Harvest Badges ─────────────────────────────── */
+.species-badge {
+  display: inline-flex; align-items:center; gap:5px;
+  padding: 3px 10px; border-radius: 99px;
+  font-size: 11px; font-weight: 600;
+}
+.species-badge.kappaphycus { background:rgba(42,157,130,0.12); color:var(--teal-700); border:1px solid rgba(42,157,130,0.25); }
+.species-badge.gracilaria  { background:rgba(249,183,78,0.12); color:#8a5d00; border:1px solid rgba(249,183,78,0.30); }
+
+.harvest-chip {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--teal-600), var(--teal-400));
+  color:#fff; padding:3px 10px; border-radius:99px;
+  font-size:12px; font-weight:700; font-family:var(--font-mono);
+}
+
+/* ── Plant Toggle ─────────────────────────────────────────── */
+.plant-toggle {
+  display:flex; background:var(--teal-50);
+  border:1.5px solid var(--border-color);
+  border-radius:var(--radius-sm); padding:4px; gap:4px; margin-bottom:16px;
+}
+.plant-toggle button { flex:1; border:none; background:transparent; color:var(--text-secondary); border-radius:6px; }
+.plant-toggle button.active { background:var(--teal-600); color:#fff; }
+
+/* ── Scrollbar ────────────────────────────────────────────── */
+::-webkit-scrollbar { width:6px; height:6px; }
+::-webkit-scrollbar-track { background:var(--teal-50); }
+::-webkit-scrollbar-thumb { background:var(--teal-300); border-radius:99px; }
+::-webkit-scrollbar-thumb:hover { background:var(--teal-500); }
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media(max-width:600px){
+  .section { padding:16px 12px 40px; }
+  .card { padding:18px; }
+  .prediction-summary { grid-template-columns:1fr; }
+}

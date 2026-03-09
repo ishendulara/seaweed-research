@@ -1,0 +1,376 @@
+.checklist-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #f5f5f5;
+  min-height: calc(100vh - 80px);
+}
+
+.checklist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.checklist-header h1 {
+  color: #1a472a;
+  margin: 0;
+}
+
+.btn-print {
+  background-color: #8b5cf6;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-print:hover {
+  background-color: #7c3aed;
+}
+
+.checklist-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Cards */
+.checklist-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.checklist-card h2 {
+  color: #1a472a;
+  margin: 0 0 1.5rem 0;
+  font-size: 1.4rem;
+  border-bottom: 3px solid #1a472a;
+  padding-bottom: 0.5rem;
+}
+
+.checklist-card h3 {
+  color: #2d5a3d;
+  margin: 1.5rem 0 1rem 0;
+  font-size: 1.1rem;
+}
+
+/* Info Grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem;
+  background: #f9fafb;
+  border-radius: 4px;
+  border-left: 3px solid #1a472a;
+}
+
+.info-item .label {
+  color: #666;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-item .value {
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Progress */
+.progress-wrapper {
+  margin-top: 1rem;
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 40px;
+  background-color: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #059669);
+  transition: width 0.5s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.progress-text {
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.progress-info {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+  font-weight: 600;
+}
+
+.completion-banner {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #d1fae5, #a7f3d0);
+  border-radius: 8px;
+  text-align: center;
+  color: #065f46;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: 2px solid #10b981;
+}
+
+/* Tasks List */
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 2px solid #e5e7eb;
+  transition: all 0.3s;
+}
+
+.task-item:hover {
+  background: #f3f4f6;
+  border-color: #1a472a;
+}
+
+.task-item.completed {
+  background: #d1fae5;
+  border-color: #10b981;
+}
+
+.task-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.task-checkbox {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  accent-color: #1a472a;
+}
+
+.checkbox-print {
+  display: none;
+  font-size: 1.5rem;
+  color: #1a472a;
+}
+
+.task-label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  flex: 1;
+  user-select: none;
+}
+
+.task-number {
+  background: #1a472a;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.task-item.completed .task-number {
+  background: #10b981;
+}
+
+.task-text {
+  flex: 1;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.task-item.completed .task-text {
+  color: #065f46;
+  font-weight: 600;
+}
+
+.task-completed-badge {
+  background: #10b981;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Quality Control */
+.qc-section {
+  margin: 1.5rem 0;
+}
+
+.qc-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.qc-list li {
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  background: #f0f9ff;
+  border-left: 4px solid #3b82f6;
+  border-radius: 4px;
+  color: #1e3a8a;
+}
+
+.qc-list li::before {
+  content: "→ ";
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+/* Signature Section */
+.signature-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px dashed #d1d5db;
+}
+
+.signature-box {
+  text-align: center;
+}
+
+.signature-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.signature-line {
+  border-bottom: 2px solid #333;
+  margin: 0 auto;
+  width: 80%;
+  height: 50px;
+}
+
+.signature-date {
+  margin-top: 0.5rem;
+  color: #666;
+}
+
+/* Footer */
+.checklist-footer {
+  text-align: center;
+  color: #666;
+  font-size: 0.9rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.checklist-footer p {
+  margin: 0.25rem 0;
+}
+
+/* Print Styles */
+@media print {
+  .checklist-container {
+    background: white;
+    padding: 0;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .checkbox-print {
+    display: block !important;
+  }
+
+  .task-checkbox {
+    display: none;
+  }
+
+  .checklist-card {
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  .task-item {
+    page-break-inside: avoid;
+  }
+
+  .signature-section {
+    page-break-before: avoid;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .checklist-container {
+    padding: 1rem;
+  }
+
+  .checklist-header {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: stretch;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .signature-section {
+    grid-template-columns: 1fr;
+  }
+
+  .checklist-card {
+    padding: 1rem;
+  }
+
+  .task-label {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

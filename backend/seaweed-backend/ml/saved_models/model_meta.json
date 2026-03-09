@@ -1,0 +1,23 @@
+{
+  "max_ingredients": 4,
+  "seaweed_types": [
+    "Gracilaria Edulis",
+    "Kappaphycus Alvarezii"
+  ],
+  "health_categories": [
+    "Digestive Health",
+    "Energy & Mineral Supplementation",
+    "Hair & Scalp Health",
+    "Immune & Antioxidant Support",
+    "Joint & Anti-inflammatory",
+    "Oral Health",
+    "Relaxation Support",
+    "Skin Health"
+  ],
+  "units": [
+    "g",
+    "ml"
+  ],
+  "n_training_samples": 600,
+  "has_quality_classifier": true
+}

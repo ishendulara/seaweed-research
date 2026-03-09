@@ -1,0 +1,35 @@
+{
+  "n_samples": 630,
+  "feature_names": [
+    "Seaweed",
+    "Season",
+    "Freshness",
+    "Location",
+    "Temp",
+    "Moisture",
+    "Duration",
+    "pH"
+  ],
+  "quality_labels": [
+    "High Quality",
+    "Lower Quality",
+    "Medium Quality"
+  ],
+  "seasons": [
+    "dry",
+    "wet"
+  ],
+  "freshness_options": [
+    "dried",
+    "fresh",
+    "stored"
+  ],
+  "locations": [
+    "deep",
+    "shallow"
+  ],
+  "regressor_mae": 0.14,
+  "classifier_accuracy": 1.0,
+  "cv_accuracy": 0.984,
+  "label_source": "Derived from Season + Freshness + Harvest_Location (CSV)"
+}

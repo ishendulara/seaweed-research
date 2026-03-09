@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* subtle marine grid */
+.marine-grid {
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(45, 212, 191, 0.12) 1px, transparent 0),
+    radial-gradient(circle at 1px 1px, rgba(148, 163, 184, 0.08) 1px, transparent 0);
+  background-size: 24px 24px, 120px 120px;
+  background-position: 0 0, 0 0;
+}
+

@@ -1,0 +1,3361 @@
+{
+  "Gracilaria Edulis||Gracilaria Digestive Kashaya": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Digestive Kashaya",
+    "health_category_raw": "Constipation, indigestion",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Dried Gracilaria",
+        "quantity_raw": "17.7 g",
+        "value": 17.7,
+        "unit": "g"
+      },
+      {
+        "name": "Triphala",
+        "quantity_raw": "4.7 g",
+        "value": 4.7,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "quantity_raw": "167.4 ml",
+        "value": 167.4,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Wash the dried Gracilaria thoroughly and soak it for about 5 minutes to soften.",
+      "Add the soaked seaweed, Triphala, and water into a pan.",
+      "Heat the mixture and allow it to boil for around 10 minutes.",
+      "Reduce the flame and let it simmer gently for another 5 minutes.",
+      "Remove from heat and strain the liquid to separate the herbs.",
+      "Serve the warm Kashaya immediately for best results."
+    ],
+    "temperature": "90-95°C",
+    "duration": "15min",
+    "mixing_method": "Occasional stirring",
+    "ph_control": "6-6.5",
+    "moisture": "Liquid",
+    "critical_control_points": [
+      "Avoid overboiling",
+      "Use clean water"
+    ],
+    "quality_control": [
+      "Color",
+      "Aroma",
+      "pH",
+      "Microbial safety"
+    ],
+    "contraindications": "Avoid if allergic to Triphala",
+    "recommended_dose": "50 - 100 ml, 1-2x/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Skin Paste (Lepa)": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Skin Paste (Lepa)",
+    "health_category_raw": "Dry/ rough skin",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria gel",
+        "quantity_raw": "17.7 g",
+        "value": 17.7,
+        "unit": "g"
+      },
+      {
+        "name": "Aloevera gel",
+        "quantity_raw": "9.1 g",
+        "value": 9.1,
+        "unit": "g"
+      },
+      {
+        "name": "Rose water",
+        "quantity_raw": "5.9 ml",
+        "value": 5.9,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Place the Gracilaria gel and Aloe vera gel in a clean mixing bowl.",
+      "Mix both gels slowly until an even smooth texture forms.",
+      "Add rose water little by little while stirring.",
+      "Continue mixing for about 5 minutes to ensure full blending.",
+      "Apply directly on skin or refrigerate for later use.",
+      "Use within 24 hours for best freshness."
+    ],
+    "temperature": "25°C",
+    "duration": "20min",
+    "mixing_method": "Gentle",
+    "ph_control": "5.5-6",
+    "moisture": "85%",
+    "critical_control_points": [
+      "Sterile containers",
+      "Avoid microbial contamination"
+    ],
+    "quality_control": [
+      "pH",
+      "Viscosity",
+      "Microbial test"
+    ],
+    "contraindications": "Do patch test for sensitive skin",
+    "recommended_dose": "Apply 2-3x/day",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Hair Oil (Thailaya)": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Hair Oil (Thailaya)",
+    "health_category_raw": "Hair loss, Dry scalp",
+    "health_category": "Hair & Scalp Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria extract",
+        "quantity_raw": "45.3 ml",
+        "value": 45.3,
+        "unit": "ml"
+      },
+      {
+        "name": "Sesame oil",
+        "quantity_raw": "13.5 ml",
+        "value": 13.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Bhringraj extract",
+        "quantity_raw": "5.1 ml",
+        "value": 5.1,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm the sesame oil gently until it reaches a mild heat (not too hot).",
+      "Add the Gracilaria extract into the oil while stirring slowly.",
+      "Add Bhringraj extract and continue stirring for around 10 minutes.",
+      "Remove from heat and let the mixture cool naturally.",
+      "Filter if needed to remove residues.",
+      "Pour the oil into a dry bottle for storage."
+    ],
+    "temperature": "35-40°C",
+    "duration": "15min",
+    "mixing_method": "Low-shear",
+    "ph_control": "Not specified",
+    "moisture": "<0.5%",
+    "critical_control_points": [
+      "Avoid water contamination",
+      "Oil clarity"
+    ],
+    "quality_control": [
+      "Peroxide value",
+      "Visual inspection",
+      "Microbial check"
+    ],
+    "contraindications": "Avoid eye contact",
+    "recommended_dose": "Massage scalp 2-3x/week",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Mineral Drink (Panaka)": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Mineral Drink (Panaka)",
+    "health_category_raw": "Dehydration, fatigue",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria powder",
+        "quantity_raw": "4.4 g",
+        "value": 4.4,
+        "unit": "g"
+      },
+      {
+        "name": "Jaggery",
+        "quantity_raw": "11.7 g",
+        "value": 11.7,
+        "unit": "g"
+      },
+      {
+        "name": "Warm water",
+        "quantity_raw": "229.6 ml",
+        "value": 229.6,
+        "unit": "ml"
+      },
+      {
+        "name": "Lemon juice",
+        "quantity_raw": "4.6 ml",
+        "value": 4.6,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Heat the water to about 50-60°C.",
+      "Add Gracilaria powder and stir well to dissolve.",
+      "Add jaggery and mix until fully melted.",
+      "Add lemon juice and stir for another 1-2 minutes.",
+      "Filter the drink to remove any particles.",
+      "Serve warm for better absorption."
+    ],
+    "temperature": "50-60°C",
+    "duration": "5min mixing",
+    "mixing_method": "Gentle",
+    "ph_control": "6",
+    "moisture": "Liquid",
+    "critical_control_points": [
+      "Avoid overheating",
+      "Clean water"
+    ],
+    "quality_control": [
+      "Color",
+      "Taste",
+      "pH"
+    ],
+    "contraindications": "Diabetes: monitor jaggery intake",
+    "recommended_dose": "150-200 ml/day",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Digestive Powder(Churna)": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Digestive Powder(Churna)",
+    "health_category_raw": "Constipation, gut health",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Dried Gracilaria",
+        "quantity_raw": "23.6 g",
+        "value": 23.6,
+        "unit": "g"
+      },
+      {
+        "name": "Dryginger powder",
+        "quantity_raw": "4.2 g",
+        "value": 4.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry the Gracilaria at 50°C until it becomes crisp.",
+      "Grind the dried seaweed into a fine powder.",
+      "Mix the seaweed powder and dry ginger powder thoroughly.",
+      "Pass the mixture through a sieve to ensure uniformity.",
+      "Place the powder in an air-tight, moisture-free container.",
+      "Store in a cool dry place."
+    ],
+    "temperature": "50°C",
+    "duration": "6h drying",
+    "mixing_method": "Tumble",
+    "ph_control": "6",
+    "moisture": "<10%",
+    "critical_control_points": [
+      "Powder dryness",
+      "Avoid contamination"
+    ],
+    "quality_control": [
+      "Particle size uniformity",
+      "Moisture",
+      "Odor"
+    ],
+    "contraindications": "Avoid if sensitive to ginger",
+    "recommended_dose": "1-2 g/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Anti-inflammatory Lepa": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Anti-inflammatory Lepa",
+    "health_category_raw": "Swelling, joint pain",
+    "health_category": "Joint & Anti-inflammatory",
+    "ingredients": [
+      {
+        "name": "Gracilaria gel",
+        "quantity_raw": "13.3 g",
+        "value": 13.3,
+        "unit": "g"
+      },
+      {
+        "name": "Turmeric paste",
+        "quantity_raw": "8.3 g",
+        "value": 8.3,
+        "unit": "g"
+      },
+      {
+        "name": "Sesame oil",
+        "quantity_raw": "5.3 ml",
+        "value": 5.3,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Add Gracilaria gel and turmeric paste into a bowl.",
+      "Mix both ingredients until a smooth yellow paste is formed.",
+      "Add sesame oil slowly to improve spreadability.",
+      "Continue stirring for 5-7 minutes.",
+      "Apply directly to the swollen area.",
+      "Leave for 20-30 minutes before washing."
+    ],
+    "temperature": "25°C",
+    "duration": "15min",
+    "mixing_method": "Gentle",
+    "ph_control": "5.5-6",
+    "moisture": "80-85%",
+    "critical_control_points": [
+      "Sterile container",
+      "Avoid contamination"
+    ],
+    "quality_control": [
+      "pH",
+      "Texture",
+      "Microbial test"
+    ],
+    "contraindications": "Patch test recommended",
+    "recommended_dose": "Apply 1-2x/day",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Skin Hydration Drink": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Skin Hydration Drink",
+    "health_category_raw": "Dry skin",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria powder",
+        "quantity_raw": "5.7 g",
+        "value": 5.7,
+        "unit": "g"
+      },
+      {
+        "name": "Warm water",
+        "quantity_raw": "179.9 ml",
+        "value": 179.9,
+        "unit": "ml"
+      },
+      {
+        "name": "Honey",
+        "quantity_raw": "4.4 ml",
+        "value": 4.4,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm the water to about 50°C.",
+      "Add the Gracilaria powder and mix well until dissolved.",
+      "Add honey and stir until evenly blended.",
+      "Let the drink settle for 1 minute.",
+      "Filter if desired.",
+      "Drink while warm."
+    ],
+    "temperature": "50°C",
+    "duration": "10min",
+    "mixing_method": "Gentle",
+    "ph_control": "6-6.5",
+    "moisture": "Liquid",
+    "critical_control_points": [
+      "Avoid overheating",
+      "Use clean water"
+    ],
+    "quality_control": [
+      "Taste",
+      "pH",
+      "Microbial"
+    ],
+    "contraindications": "Allergy to honey: substitute",
+    "recommended_dose": "150 ml/day",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Rejuvenation Churna": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Rejuvenation Churna",
+    "health_category_raw": "General Health, fatigue",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Gracilaria powder",
+        "quantity_raw": "8.9 g",
+        "value": 8.9,
+        "unit": "g"
+      },
+      {
+        "name": "Ashwagandha powder",
+        "quantity_raw": "4.8 g",
+        "value": 4.8,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Measure Gracilaria powder and Ashwagandha powder in equal proportions.",
+      "Mix both powders thoroughly in a dry bowl.",
+      "Sieve the combined powder to ensure even particle size.",
+      "Transfer the mixture into a container.",
+      "Ensure the lid is tightly sealed to avoid moisture absorption.",
+      "Label with date and batch number."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "Not specified",
+    "mixing_method": "Tumble",
+    "ph_control": "6",
+    "moisture": "<10%",
+    "critical_control_points": [
+      "Avoid moisture"
+    ],
+    "quality_control": [
+      "Particle size",
+      "Moisture",
+      "Odor"
+    ],
+    "contraindications": "Avoid high dose if digestive sensitivity",
+    "recommended_dose": "2 g/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Facial Mask": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Facial Mask",
+    "health_category_raw": "Skin glow",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria gel",
+        "quantity_raw": "11.0 g",
+        "value": 11.0,
+        "unit": "g"
+      },
+      {
+        "name": "Sandalwood paste",
+        "quantity_raw": "4.1 g",
+        "value": 4.1,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Add Gracilaria gel into a clean bowl.",
+      "Add sandalwood paste and mix well.",
+      "Stir until a soft, spreadable paste forms.",
+      "Apply evenly on the face using clean fingers.",
+      "Leave it for 10-15 minutes.",
+      "Rinse with lukewarm water."
+    ],
+    "temperature": "25°C",
+    "duration": "Not specified",
+    "mixing_method": "Gentle",
+    "ph_control": "Not specified",
+    "moisture": "80-85%",
+    "critical_control_points": [
+      "Fresh preparation",
+      "Avoid contamination"
+    ],
+    "quality_control": [
+      "Texture",
+      "Color",
+      "Microbial"
+    ],
+    "contraindications": "Sensitive skin: patch test",
+    "recommended_dose": "Apply 1-2x/week",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Hair Strengthening Oil": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Hair Strengthening Oil",
+    "health_category_raw": "Hair breakage",
+    "health_category": "Hair & Scalp Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria extract",
+        "quantity_raw": "10.3 ml",
+        "value": 10.3,
+        "unit": "ml"
+      },
+      {
+        "name": "Coconut oil",
+        "quantity_raw": "50.5 ml",
+        "value": 50.5,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm the coconut oil lightly (not boiling).",
+      "Add Gracilaria extract slowly while stirring.",
+      "Continue mixing for 10 minutes.",
+      "Allow the oil to cool completely.",
+      "Filter if any residue remains.",
+      "Store in a sterilized bottle."
+    ],
+    "temperature": "35-40°C",
+    "duration": "15min",
+    "mixing_method": "Low-shear",
+    "ph_control": "Not specified",
+    "moisture": "Not specified",
+    "critical_control_points": [
+      "Avoid water contamination"
+    ],
+    "quality_control": [
+      "Peroxide value",
+      "Visual",
+      "Microbia"
+    ],
+    "contraindications": "Avoid eye contact",
+    "recommended_dose": "Massage scalp 2-3x/week",
+    "season": "dry",
+    "freshness": "stored",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gut Tonic Drink": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gut Tonic Drink",
+    "health_category_raw": "Indigestion",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria powder",
+        "quantity_raw": "6.0 g",
+        "value": 6.0,
+        "unit": "g"
+      },
+      {
+        "name": "Ginger",
+        "quantity_raw": "5.3 g",
+        "value": 5.3,
+        "unit": "g"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "160.6 ml",
+        "value": 160.6,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Boil water for about 5 minutes.",
+      "Add Gracilaria powder and ginger slices into the boiling water.",
+      "Stir for around 5 minutes.",
+      "Remove from heat and cover for 2 minutes.",
+      "Strain the mixture carefully.",
+      "Drink warm."
+    ],
+    "temperature": "90°C",
+    "duration": "10min",
+    "mixing_method": "Occasional",
+    "ph_control": "Not specified",
+    "moisture": "Not specified",
+    "critical_control_points": [
+      "Avoid overboiling"
+    ],
+    "quality_control": [
+      "Taste",
+      "pH",
+      "Microbial"
+    ],
+    "contraindications": "Avoid if sensitive to ginger",
+    "recommended_dose": "100-150 ml/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Prebiotic Powder": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Prebiotic Powder",
+    "health_category_raw": "Gut health",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Dried Gracilaria",
+        "quantity_raw": "22.8 g",
+        "value": 22.8,
+        "unit": "g"
+      },
+      {
+        "name": "Fenugreek powder",
+        "quantity_raw": "4.2 g",
+        "value": 4.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry the seaweed completely at 50°C to remove moisture.",
+      "Grind the dried Gracilaria into a fine, smooth powder.",
+      "Add fenugreek powder and mix thoroughly.",
+      "Sieve the powder mixture to get uniform texture.",
+      "Store in a dry, clean, air-tight container.",
+      "Keep away from sunlight."
+    ],
+    "temperature": "50°C",
+    "duration": "6h drying",
+    "mixing_method": "Tumble",
+    "ph_control": "Not specified",
+    "moisture": "<10%",
+    "critical_control_points": [
+      "Dryness",
+      "Avoid contamination"
+    ],
+    "quality_control": [
+      "Particle size",
+      "Moisture",
+      "Odor"
+    ],
+    "contraindications": "Avoid high fiber if digestive issues",
+    "recommended_dose": "1-2 g/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Energy Gel": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Energy Gel",
+    "health_category_raw": "Energy/ Mineral Supplementation",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Gracilaria powder",
+        "quantity_raw": "22.9 g",
+        "value": 22.9,
+        "unit": "g"
+      },
+      {
+        "name": "Honey",
+        "quantity_raw": "59.5 g",
+        "value": 59.5,
+        "unit": "g"
+      },
+      {
+        "name": "Lemon juice",
+        "quantity_raw": "5.6 ml",
+        "value": 5.6,
+        "unit": "ml"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "115.3 ml",
+        "value": 115.3,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm water to 45-50°C.",
+      "Add honey and stir until fully dissolved.",
+      "Slowly sprinkle Gracilaria powder while continuously stirring to avoid clumps.",
+      "Continue mixing until a uniform gel begins to form.",
+      "Add lemon juice and mix gently.",
+      "Cool the gel to room temperature and transfer to airtight containers."
+    ],
+    "temperature": "45-50°C",
+    "duration": "10-15min",
+    "mixing_method": "low-speed stirring 300-500 rpm",
+    "ph_control": "5",
+    "moisture": "60-70%(gel)",
+    "critical_control_points": [
+      "Overheating",
+      "contamination during cooling"
+    ],
+    "quality_control": [
+      "Viscosity check",
+      "pH",
+      "microbial test (TAMC/YC)"
+    ],
+    "contraindications": "Avoid if allergic to honey or seaweed",
+    "recommended_dose": "1-2 servings/day",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Detox Tea": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Detox Tea",
+    "health_category_raw": "Antioxidant/ Detox Support",
+    "health_category": "Immune & Antioxidant Support",
+    "ingredients": [
+      {
+        "name": "Dried Gracilaria",
+        "quantity_raw": "5.3 g",
+        "value": 5.3,
+        "unit": "g"
+      },
+      {
+        "name": "Ginger",
+        "quantity_raw": "1.9 g",
+        "value": 1.9,
+        "unit": "g"
+      },
+      {
+        "name": "Hot water",
+        "quantity_raw": "238.5 ml",
+        "value": 238.5,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Heat water to about 90°C (not boiling).",
+      "Add dried Gracilaria and ginger slices.",
+      "Cover the cup/pot and let steep for 10 minutes.",
+      "Stir once and strain through a fine mesh filter.",
+      "Serve hot."
+    ],
+    "temperature": "90°C steep",
+    "duration": "10min",
+    "mixing_method": "no vigorous mixing",
+    "ph_control": "Not specified",
+    "moisture": "water-based",
+    "critical_control_points": [
+      "Use potable water",
+      "Avoid prolonged boiling"
+    ],
+    "quality_control": [
+      "Organoleptic (taste/odor)",
+      "absence of foreign matter"
+    ],
+    "contraindications": "Not for people with iodine sensitivity",
+    "recommended_dose": "1 cup/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Soup Mix": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Soup Mix",
+    "health_category_raw": "General Nutrition/ Fiber",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria flakes",
+        "quantity_raw": "9.6 g",
+        "value": 9.6,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot powder",
+        "quantity_raw": "4.8 g",
+        "value": 4.8,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "quantity_raw": "0.9 g",
+        "value": 0.9,
+        "unit": "g"
+      },
+      {
+        "name": "Maltodextrin",
+        "quantity_raw": "17.0 g",
+        "value": 17.0,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry Gracilaria flakes in a dehydrator at 55-60°C until crisp.",
+      "Grind carrot powder and other ingredients to the same particle size.",
+      "Add all powdered ingredients into a blender or tumbler mixer.",
+      "Mix for 5-7 minutes until fully uniform.",
+      "Package immediately in moisture-proof bags."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "30-60min drying",
+    "mixing_method": "tumble mixing",
+    "ph_control": "N/A",
+    "moisture": "<10%",
+    "critical_control_points": [
+      "Control drying to avoid mold",
+      "particle size"
+    ],
+    "quality_control": [
+      "Moisture content (<10%)",
+      "microbial limits",
+      "homogeneity"
+    ],
+    "contraindications": "Avoid if allergic to seaweed",
+    "recommended_dose": "1 serving/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Skin Hydrating Gel": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Skin Hydrating Gel",
+    "health_category_raw": "Skin Hydration/ Soothing",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria extract",
+        "quantity_raw": "16.5 ml",
+        "value": 16.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Aloe gel",
+        "quantity_raw": "53.5 ml",
+        "value": 53.5,
+        "unit": "ml"
+      },
+      {
+        "name": "Glycerin",
+        "quantity_raw": "4.4 ml",
+        "value": 4.4,
+        "unit": "ml"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "quantum satis"
+      }
+    ],
+    "preparation_steps": [
+      "Prepare aloe gel and distilled water in a sanitized vessel.",
+      "Add Gracilaria extract slowly while stirring.",
+      "Add glycerin.",
+      "Homogenize using a high-shear mixer for 10-15 minutes.",
+      "Adjust pH to 5.5-6 using citric acid if needed.",
+      "Filter (optional) and fill into sterilized containers."
+    ],
+    "temperature": "<30°C",
+    "duration": "15-30min",
+    "mixing_method": "high-shear homogenization 1000-2000 rpm",
+    "ph_control": "5.5-6",
+    "moisture": "85%",
+    "critical_control_points": [
+      "Sterility of water",
+      "preservative efficacy"
+    ],
+    "quality_control": [
+      "Preservative challenge test",
+      "pH",
+      "viscosity"
+    ],
+    "contraindications": "Sensitive skin: patch test",
+    "recommended_dose": "Apply thin layer daily",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Smoothie Base": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Smoothie Base",
+    "health_category_raw": "Electrolyte/ Mineral Boost",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Gracilaria slurry",
+        "quantity_raw": "29.5 g",
+        "value": 29.5,
+        "unit": "g"
+      },
+      {
+        "name": "Banana",
+        "quantity_raw": "1.1",
+        "value": 1.1,
+        "unit": ""
+      },
+      {
+        "name": "Coconut water",
+        "quantity_raw": "213.4 ml",
+        "value": 213.4,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Wash banana and peel.",
+      "Add Gracilaria slurry, banana, and coconut water into blender.",
+      "Blend at high speed for 30-45 seconds until smooth.",
+      "Chill immediately to retain freshness.",
+      "Fill into bottles if storing short-term."
+    ],
+    "temperature": "4-8°C processing",
+    "duration": "immediate blending",
+    "mixing_method": "high-speed blending",
+    "ph_control": "Not specified",
+    "moisture": "90%",
+    "critical_control_points": [
+      "Cold chain",
+      "rapid processing to avoid spoilage"
+    ],
+    "quality_control": [
+      "Bacterial plate counts",
+      "sensory",
+      "pH"
+    ],
+    "contraindications": "Avoid for people with seaweed/iodine allergy. \nDiabetics monitor natural sugar intake. \nConsume fresh to prevent microbial growth.",
+    "recommended_dose": "1 bottle (200-250 ml) per day",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Immune Powder": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Immune Powder",
+    "health_category_raw": "Immune Support / Antioxidant",
+    "health_category": "Immune & Antioxidant Support",
+    "ingredients": [
+      {
+        "name": "Dried Gracilaria",
+        "quantity_raw": "25.7 g",
+        "value": 25.7,
+        "unit": "g"
+      },
+      {
+        "name": "Moringa",
+        "quantity_raw": "8.9 g",
+        "value": 8.9,
+        "unit": "g"
+      },
+      {
+        "name": "Cinnamon",
+        "quantity_raw": "2.2 g",
+        "value": 2.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry Gracilaria in an oven at 55-60°C until moisture is below 8%.",
+      "Mill into fine powder.",
+      "Sieve through 80-mesh screen.",
+      "Mix with moringa and cinnamon in a dry tumbler for 5-10 minutes.",
+      "Pack into airtight pouches."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "sieve 60-100 mesh",
+    "mixing_method": "tumble mixing",
+    "ph_control": "N/A",
+    "moisture": "<8%",
+    "critical_control_points": [
+      "Avoid cross-contamination",
+      "moisture control"
+    ],
+    "quality_control": [
+      "Moisture",
+      "microbial counts",
+      "particle size"
+    ],
+    "contraindications": "Not recommended for thyroid disorders without medical advice (iodine content).\nPregnant users consult doctor.",
+    "recommended_dose": "5-10 g/day mixed with water, juice, or smoothie",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Calcium Porridge Mix": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Calcium Porridge Mix",
+    "health_category_raw": "Mineral Supplementation (Calcium)",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Gracilaria flour",
+        "quantity_raw": "15.7 g",
+        "value": 15.7,
+        "unit": "g"
+      },
+      {
+        "name": "Rice flour",
+        "quantity_raw": "24.3 g",
+        "value": 24.3,
+        "unit": "g"
+      },
+      {
+        "name": "Milk powder",
+        "quantity_raw": "9.6 g",
+        "value": 9.6,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "quantity_raw": "1.0 g",
+        "value": 1.0,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Mill Gracilaria into fine flour.",
+      "Combine rice flour, milk powder, and salt in a mixing bowl.",
+      "Stir for 5 minutes until uniform.",
+      "Store in airtight containers.",
+      "For use: Add water/milk and cook while stirring until thick."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "Not specified",
+    "mixing_method": "constant stirring",
+    "ph_control": "Not specified",
+    "moisture": "60-65%",
+    "critical_control_points": [
+      "Cooking uniformity",
+      "proper reconstitution"
+    ],
+    "quality_control": [
+      "Reconstitution test",
+      "Taste",
+      "Microbial"
+    ],
+    "contraindications": "Lactose-intolerant individuals should replace milk powder. \nAvoid excess intake with calcium supplements.",
+    "recommended_dose": "1 serving (?40-50 g mix) once daily",
+    "season": "dry",
+    "freshness": "stored",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Green Juice": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Green Juice",
+    "health_category_raw": "Antioxidant / Iron Support",
+    "health_category": "Immune & Antioxidant Support",
+    "ingredients": [
+      {
+        "name": "Seaweed juice",
+        "quantity_raw": "21.7 ml",
+        "value": 21.7,
+        "unit": "ml"
+      },
+      {
+        "name": "Spinach",
+        "quantity_raw": "52.1 g",
+        "value": 52.1,
+        "unit": "g"
+      },
+      {
+        "name": "Lime",
+        "quantity_raw": "11.0 ml",
+        "value": 11.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "126.9 ml",
+        "value": 126.9,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Add spinach, seaweed juice, lime, and water into blender.",
+      "Blend at high speed for 60 seconds.",
+      "Strain the juice using a muslin cloth or fine sieve.",
+      "Serve chilled."
+    ],
+    "temperature": "<10°C prep",
+    "duration": "immediate blending",
+    "mixing_method": "high-speed",
+    "ph_control": "3.5-4.5",
+    "moisture": "~92%",
+    "critical_control_points": [
+      "Oxidation post-blend",
+      "maintain cold chain"
+    ],
+    "quality_control": [
+      "Color",
+      "total plate count",
+      "pH"
+    ],
+    "contraindications": "High oxalate (spinach)  kidney stone patients limit intake. \nConsume immediately after preparation.",
+    "recommended_dose": "150-200 ml per serving, max once daily",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Hair Nourish Mask": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Hair Nourish Mask",
+    "health_category_raw": "Hair Nourishment/ Strength",
+    "health_category": "Hair & Scalp Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria gel",
+        "quantity_raw": "34.2 g",
+        "value": 34.2,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut milk",
+        "quantity_raw": "22.6 ml",
+        "value": 22.6,
+        "unit": "ml"
+      },
+      {
+        "name": "Curryleaf paste",
+        "quantity_raw": "8.4 g",
+        "value": 8.4,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Blend curry leaves with small amount of water to paste.",
+      "Add seaweed gel and coconut milk into bowl.",
+      "Mix using a spatula until smooth.",
+      "Use immediately or refrigerate for up to 24 hours."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "10-15min",
+    "mixing_method": "low-shear",
+    "ph_control": "Not specified",
+    "moisture": "high",
+    "critical_control_points": [
+      "Fresh ingredient quality",
+      "microbial contamination"
+    ],
+    "quality_control": [
+      "Viscosity",
+      "odor",
+      "microbial test"
+    ],
+    "contraindications": "External use only. \nPatch test recommended to avoid scalp irritation. \nUse within 24 hrs refrigerated.",
+    "recommended_dose": "Apply 20-30 g per use, 1-2 times/week",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Face Mask Powder": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Face Mask Powder",
+    "health_category_raw": "Skin Mineral & Gentle Exfoliation",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria powder",
+        "quantity_raw": "8.7 g",
+        "value": 8.7,
+        "unit": "g"
+      },
+      {
+        "name": "Bentonite clay",
+        "quantity_raw": "17.7 g",
+        "value": 17.7,
+        "unit": "g"
+      },
+      {
+        "name": "Oat powder",
+        "quantity_raw": "11.2 g",
+        "value": 11.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry ingredients completely.",
+      "Sieve all powders through 80-100 mesh.",
+      "Use a dry mixer to combine for 5-7 minutes.",
+      "Store in a dry jar.",
+      "To use: mix 1 tbsp with 2-3 tsp water to make paste."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "5-10min",
+    "mixing_method": "sieve",
+    "ph_control": "Not specified",
+    "moisture": "<6%",
+    "critical_control_points": [
+      "Dust control",
+      "avoid moisture pickup in packaging"
+    ],
+    "quality_control": [
+      "Particle size",
+      "moisture",
+      "microbial"
+    ],
+    "contraindications": "Avoid on broken or sensitive skin. \nPatch test required due to clay absorption effect.",
+    "recommended_dose": "1 tbsp powder per application, 1-2 times/week",
+    "season": "dry",
+    "freshness": "stored",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Fiber Capsules": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Fiber Capsules",
+    "health_category_raw": "Digestive/ Prebiotic Support",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria fiber powder",
+        "quantity_raw": "497.7 mg",
+        "value": 497.7,
+        "unit": "mg"
+      }
+    ],
+    "preparation_steps": [
+      "Dry and mill Gracilaria fiber into a fine powder.",
+      "Sieve through 100-mesh.",
+      "Load powder into capsule-filling machine.",
+      "Fill 500 mg per capsule.",
+      "Inspect for weight variation.",
+      "Seal and pack."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "encapsulationat RT",
+    "mixing_method": "tumble mixing",
+    "ph_control": "N/A",
+    "moisture": "<5%",
+    "critical_control_points": [
+      "Moisture uptake causing caking",
+      "uniform fill weight"
+    ],
+    "quality_control": [
+      "Capsule weight uniformity",
+      "Disintegration",
+      "Moisture"
+    ],
+    "contraindications": "May cause bloating if taken without enough water. \nAvoid intestinal obstruction patients.",
+    "recommended_dose": "1-2 capsules (500 mg each), twice daily with water",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Yogurt Additive (probiotic support)": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Yogurt Additive (probiotic support)",
+    "health_category_raw": "Prebiotic/ Texture Enhancer",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria gel",
+        "quantity_raw": "9.1 g",
+        "value": 9.1,
+        "unit": "g"
+      },
+      {
+        "name": "Yogurt",
+        "quantity_raw": "90.1 g",
+        "value": 90.1,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Prepare yogurt and chill to 4°C.",
+      "Add seaweed gel at 10 ml per 100 g yogurt.",
+      "Mix gently using spatula to avoid breaking curd.",
+      "Store refrigerated."
+    ],
+    "temperature": "4°C blending",
+    "duration": "2-3min",
+    "mixing_method": "gentle mixing",
+    "ph_control": "4-4.5",
+    "moisture": "productdependent",
+    "critical_control_points": [
+      "Avoid contamination during addition",
+      "maintain probiotic viability"
+    ],
+    "quality_control": [
+      "Viable probiotic count",
+      "pH",
+      "syneresis measurement"
+    ],
+    "contraindications": "Maintain cold chain to protect probiotics. \nNot for lactose intolerance unless dairy-free yogurt used.",
+    "recommended_dose": "10 g gel per 100 g yogurt serving",
+    "season": "dry",
+    "freshness": "stored",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Protein Snack Bar": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Protein Snack Bar",
+    "health_category_raw": "Energy/ Moderate Protein & Minerals",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Gracilaria flakes",
+        "quantity_raw": "19.8 g",
+        "value": 19.8,
+        "unit": "g"
+      },
+      {
+        "name": "Oats",
+        "quantity_raw": "112.9 g",
+        "value": 112.9,
+        "unit": "g"
+      },
+      {
+        "name": "Honey",
+        "quantity_raw": "48.0 g",
+        "value": 48.0,
+        "unit": "g"
+      },
+      {
+        "name": "Peanuts",
+        "quantity_raw": "33.2 g",
+        "value": 33.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Roast oats and peanuts lightly.",
+      "Heat honey until slightly thin.",
+      "Add Gracilaria flakes and mix thoroughly.",
+      "Combine all ingredients in a bowl.",
+      "Press mixture into baking tray.",
+      "Bake lightly (optional) or refrigerate until set.",
+      "Cut into bars."
+    ],
+    "temperature": "80-100°C bake or heat-set",
+    "duration": "15-20min",
+    "mixing_method": "thorough mixing",
+    "ph_control": "N/A",
+    "moisture": "10-15%",
+    "critical_control_points": [
+      "Even baking",
+      "Allergen control (peanuts)"
+    ],
+    "quality_control": [
+      "Moisture",
+      "Texture",
+      "Microbial"
+    ],
+    "contraindications": "Contains peanuts (allergen warning). \nHigh calorie  portion control needed.",
+    "recommended_dose": "1 bar (40-50 g) per day",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Digestive Tonic": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Digestive Tonic",
+    "health_category_raw": "Digestive Support",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria",
+        "quantity_raw": "8.6 g",
+        "value": 8.6,
+        "unit": "g"
+      },
+      {
+        "name": "Cumin",
+        "quantity_raw": "1.7 g",
+        "value": 1.7,
+        "unit": "g"
+      },
+      {
+        "name": "Warm water",
+        "quantity_raw": "166.0 ml",
+        "value": 166.0,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Boil water with cumin for 2 minutes.",
+      "Add Gracilaria and turn off heat.",
+      "Cover and let steep for 5 minutes.",
+      "Strain and serve warm."
+    ],
+    "temperature": "80-90°C",
+    "duration": "5-10min steep",
+    "mixing_method": "no vigorous mix",
+    "ph_control": "~6",
+    "moisture": "high(beverage)",
+    "critical_control_points": [
+      "Potable water",
+      "avoid overboiling"
+    ],
+    "quality_control": [
+      "Taste",
+      "Appearance",
+      "Microbial"
+    ],
+    "contraindications": "Avoid excessive intake in gastritis or acid-sensitive individuals.\nServe warm only.",
+    "recommended_dose": "1 cup (200 ml) after meals",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Electrolyte Drink": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Electrolyte Drink",
+    "health_category_raw": "Electrolyte Balance/ Rehydration",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Seaweed mineral extract",
+        "quantity_raw": "16.3 ml",
+        "value": 16.3,
+        "unit": "ml"
+      },
+      {
+        "name": "Sugar",
+        "quantity_raw": "19.5 g",
+        "value": 19.5,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "quantity_raw": "0.9 g",
+        "value": 0.9,
+        "unit": "g"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "450.1 ml",
+        "value": 450.1,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Dissolve sugar and salt in water.",
+      "Add seaweed mineral extract.",
+      "Mix using stirrer for 2-3 minutes.",
+      "Chill and bottle."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "5-10min",
+    "mixing_method": "high-shear if needed",
+    "ph_control": "Not specified",
+    "moisture": "~99%",
+    "critical_control_points": [
+      "Accurate salt dosing",
+      "Contamination control"
+    ],
+    "quality_control": [
+      "Conductivity/EC",
+      "pH",
+      "Microbial test"
+    ],
+    "contraindications": "Monitor sodium intake for hypertension patients. \nNot a replacement for medical ORS in severe dehydration.",
+    "recommended_dose": "250-500 ml during hydration need",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Hair Serum (oil-based)": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Hair Serum (oil-based)",
+    "health_category_raw": "Scalp Nutrition/ Moisture Balance",
+    "health_category": "Hair & Scalp Health",
+    "ingredients": [
+      {
+        "name": "Seaweed extract",
+        "quantity_raw": "9.2 ml",
+        "value": 9.2,
+        "unit": "ml"
+      },
+      {
+        "name": "Sesame oil",
+        "quantity_raw": "58.9 ml",
+        "value": 58.9,
+        "unit": "ml"
+      },
+      {
+        "name": "Vitamin E",
+        "quantity_raw": "1.1 ml",
+        "value": 1.1,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm sesame oil to 35-40°C.",
+      "Add seaweed extract and stir gently.",
+      "Add vitamin E and mix again.",
+      "Let cool and bottle."
+    ],
+    "temperature": "35-40°C blending",
+    "duration": "10-15min",
+    "mixing_method": "gentle mixing",
+    "ph_control": "N/A",
+    "moisture": "<0.5%",
+    "critical_control_points": [
+      "Water contamination in oil",
+      "rancidity risk"
+    ],
+    "quality_control": [
+      "Peroxide value",
+      "Odor",
+      "Microbial (water)"
+    ],
+    "contraindications": "External use only. \nAvoid contact with eyes. \nStore away from heat to prevent oil rancidity.",
+    "recommended_dose": "3-5 ml applied to scalp, 2-3 times/week",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Skin Toner": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Skin Toner",
+    "health_category_raw": "Skin Hydration & Mild Astringent",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Seaweed filtrate",
+        "quantity_raw": "26.4 ml",
+        "value": 26.4,
+        "unit": "ml"
+      },
+      {
+        "name": "Rose water",
+        "quantity_raw": "71.4 ml",
+        "value": 71.4,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Filter seaweed extract to make it clear.",
+      "Combine rose water in sterile tank.",
+      "Add seaweed filtrate slowly with gentle stirring.",
+      "Add preservative.",
+      "Adjust pH to 4.5-5.5.",
+      "Fill into spray bottles."
+    ],
+    "temperature": "<30°C",
+    "duration": "10-20min",
+    "mixing_method": "gentle stir",
+    "ph_control": "4.5-5.5",
+    "moisture": "high",
+    "critical_control_points": [
+      "Preservative efficacy",
+      "Sterile water use"
+    ],
+    "quality_control": [
+      "Preservative challenge test",
+      "pH",
+      "Microbial limits"
+    ],
+    "contraindications": "Patch test required. \nAvoid use on irritated skin. \nMaintain preservative stability.",
+    "recommended_dose": "Spray lightly 1-2 times daily",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Bath Salt Blend": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Bath Salt Blend",
+    "health_category_raw": "Mineral Bath/ Relaxation Support",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Dried seaweed granules",
+        "quantity_raw": "47.7 g",
+        "value": 47.7,
+        "unit": "g"
+      },
+      {
+        "name": "Epsomsalt",
+        "quantity_raw": "467.5 g",
+        "value": 467.5,
+        "unit": "g"
+      },
+      {
+        "name": "Essential oil",
+        "quantity_raw": "5.0 ml",
+        "value": 5.0,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Dry seaweed granules to reduce moisture.",
+      "Add Epsom salt to mixer.",
+      "Add essential oil dropwise while mixing.",
+      "Add dried seaweed granules.",
+      "Blend until uniform.",
+      "Pack into jars."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "10-20min",
+    "mixing_method": "tumble",
+    "ph_control": "N/A",
+    "moisture": "<2%",
+    "critical_control_points": [
+      "Moisture ingress causing caking",
+      "Oil distribution"
+    ],
+    "quality_control": [
+      "Moisture content",
+      "Odor",
+      "Foreign matter"
+    ],
+    "contraindications": "Avoid use on open wounds or very sensitive skin. \nEssential oils may irritate some users.",
+    "recommended_dose": "50-100 g per bath",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Relax Tea Blend": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Relax Tea Blend",
+    "health_category_raw": "Relaxation/ Calming Support",
+    "health_category": "Relaxation Support",
+    "ingredients": [
+      {
+        "name": "Gracilaria",
+        "quantity_raw": "3.3 g",
+        "value": 3.3,
+        "unit": "g"
+      },
+      {
+        "name": "Chamomile",
+        "quantity_raw": "3.3 g",
+        "value": 3.3,
+        "unit": "g"
+      },
+      {
+        "name": "Lemongrass",
+        "quantity_raw": "3.3 g",
+        "value": 3.3,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry Gracilaria, chamomile, and lemongrass.",
+      "Cut/sieve to uniform size.",
+      "Mix thoroughly in dry mixing drum.",
+      "Pack in tea bags or jars.",
+      "For use: steep 8-10 minutes in 90°C water."
+    ],
+    "temperature": "90°C steep",
+    "duration": "8-10min",
+    "mixing_method": "no mixing",
+    "ph_control": "~6",
+    "moisture": "high(beverage)",
+    "critical_control_points": [
+      "Proper drying of herbs",
+      "Contamination control"
+    ],
+    "quality_control": [
+      "Organoleptic test",
+      "Microbial"
+    ],
+    "contraindications": "Chamomile allergy possible (ragweed-sensitive individuals). \nAvoid excessive intake during pregnancy without advice.",
+    "recommended_dose": "1 tea bag / 3-5 g per cup, up to 2 cups/day",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Rehydration Soup": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Rehydration Soup",
+    "health_category_raw": "Hydration & Light Nutrition",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Rehydrated seaweed flakes",
+        "quantity_raw": "17.1 g",
+        "value": 17.1,
+        "unit": "g"
+      },
+      {
+        "name": "Veg broth",
+        "quantity_raw": "285.2 ml",
+        "value": 285.2,
+        "unit": "ml"
+      },
+      {
+        "name": "Salt",
+        "quantity_raw": "1.1 g",
+        "value": 1.1,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Boil vegetable broth.",
+      "Add seaweed flakes.",
+      "Simmer for 3-5 minutes.",
+      "Stir gently to rehydrate evenly.",
+      "Season and serve."
+    ],
+    "temperature": "80-90°C simmer",
+    "duration": "3-5min",
+    "mixing_method": "gentle stirring",
+    "ph_control": "Not specified",
+    "moisture": "high",
+    "critical_control_points": [
+      "Proper rehydration",
+      "Even heating"
+    ],
+    "quality_control": [
+      "Temperature record",
+      "Microbial",
+      "Sensory"
+    ],
+    "contraindications": "High sodium if additional salt added  monitor for hypertension patients. \nConsume fresh.",
+    "recommended_dose": "1 bowl (250-300 ml) per serving",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Gracilaria Edulis||Gracilaria Prebiotic Powder Pack": {
+    "seaweed_type": "Gracilaria Edulis",
+    "name": "Gracilaria Prebiotic Powder Pack",
+    "health_category_raw": "Prebiotic/ Gut Microbiome Support",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Gracilaria oligosaccharide- rich extract",
+        "quantity_raw": "21.6 g",
+        "value": 21.6,
+        "unit": "g"
+      },
+      {
+        "name": "Maltodextrin",
+        "quantity_raw": "34.8 g",
+        "value": 34.8,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Prepare oligosaccharide-rich seaweed extract.",
+      "Add maltodextrin as a carrier.",
+      "Pre-mix using a high-shear stirrer.",
+      "Spray dry mixture at controlled temperature.",
+      "Collect dried powder.",
+      "Sieve and pack into sachets."
+    ],
+    "temperature": "Spray-dry inlet 150-180°C, outlet 80-90°C",
+    "duration": "feed duration perrun",
+    "mixing_method": "high-shear premix",
+    "ph_control": "Not specified",
+    "moisture": "<5%",
+    "critical_control_points": [
+      "Spray-dryer parameters (inlet/outlet temp, feed rate) critical"
+    ],
+    "quality_control": [
+      "Degree of polymerization (DP) assay",
+      "Moisture",
+      "Microbial"
+    ],
+    "contraindications": "May cause mild gas during gut adaptation phase. \nStart with small doses.",
+    "recommended_dose": "5 g/day initially - increase to 10 g/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Hydrating Kashaya": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Hydrating Kashaya",
+    "health_category_raw": "Dehydration, Weak digestion",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus",
+        "quantity_raw": "9.9 g",
+        "value": 9.9,
+        "unit": "g"
+      },
+      {
+        "name": "Ginger",
+        "quantity_raw": "4.5 g",
+        "value": 4.5,
+        "unit": "g"
+      },
+      {
+        "name": "Cinnamon",
+        "quantity_raw": "5.1 g",
+        "value": 5.1,
+        "unit": "g"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "206.0 ml",
+        "value": 206.0,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Wash the Kappaphycus thoroughly and soak it for 5 minutes to remove excess salt and soften.",
+      "Add the seaweed, ginger, cinnamon, and water into a pot.",
+      "Heat the mixture and boil for about 10 minutes.",
+      "Lower the heat and simmer gently for another 5 minutes.",
+      "Strain the liquid to remove solid herbs.",
+      "Drink warm for better digestion and hydration."
+    ],
+    "temperature": "90-95°C",
+    "duration": "15min",
+    "mixing_method": "Occasional",
+    "ph_control": "7",
+    "moisture": "Liquid",
+    "critical_control_points": [
+      "Avoid overboiling",
+      "Use clean water"
+    ],
+    "quality_control": [
+      "Color",
+      "Aroma",
+      "pH",
+      "Microbial safety"
+    ],
+    "contraindications": "Ginger/ cinnamon allergy",
+    "recommended_dose": "50-100 ml, 1-2x/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Skin Paste (Lepa)": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Skin Paste (Lepa)",
+    "health_category_raw": "Dry/ rough skin, inflammation",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus gel",
+        "quantity_raw": "21.2 g",
+        "value": 21.2,
+        "unit": "g"
+      },
+      {
+        "name": "Aloevera gel",
+        "quantity_raw": "9.2 g",
+        "value": 9.2,
+        "unit": "g"
+      },
+      {
+        "name": "Rose water",
+        "quantity_raw": "4.9 ml",
+        "value": 4.9,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Add Kappaphycus gel and Aloe vera gel into a clean bowl.",
+      "Mix the gels slowly until they combine into a smooth, even texture.",
+      "Add rose water gradually while stirring.",
+      "Continue mixing for about 5 minutes for a uniform blend.",
+      "Apply directly to the skin or store in a refrigerator.",
+      "Use within 24 hours for maximum freshness."
+    ],
+    "temperature": "25°C",
+    "duration": "Not specified",
+    "mixing_method": "Gentle",
+    "ph_control": "5.5-6",
+    "moisture": "85%",
+    "critical_control_points": [
+      "Sterile container",
+      "Avoid microbial contamination"
+    ],
+    "quality_control": [
+      "pH",
+      "Viscosity",
+      "Microbial test"
+    ],
+    "contraindications": "Patch test for sensitive skin",
+    "recommended_dose": "Apply 2-3x/day",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Hair Oil (Thailaya)": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Hair Oil (Thailaya)",
+    "health_category_raw": "Hair loss, dry scalp",
+    "health_category": "Hair & Scalp Health",
+    "ingredients": [
+      {
+        "name": "Sesame oil",
+        "quantity_raw": "6.0 g",
+        "value": 6.0,
+        "unit": "g"
+      },
+      {
+        "name": "Kappaphycus extract",
+        "quantity_raw": "17.8 ml",
+        "value": 17.8,
+        "unit": "ml"
+      },
+      {
+        "name": "Bhringraj extract",
+        "quantity_raw": "5.6 ml",
+        "value": 5.6,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm the sesame oil gently until it becomes mildly heated (not too hot).",
+      "Slowly add Kappaphycus extract into the warm oil while stirring.",
+      "Add Bhringraj extract and continue stirring for around 10 minutes.",
+      "Remove from heat and allow the oil to cool fully.",
+      "Filter to remove any residue if needed.",
+      "Store the prepared oil in a dry glass bottle."
+    ],
+    "temperature": "35-40°C",
+    "duration": "15min",
+    "mixing_method": "Low-shear",
+    "ph_control": "Not specified",
+    "moisture": "<0.5%",
+    "critical_control_points": [
+      "Avoid water contamination",
+      "Oil clarity"
+    ],
+    "quality_control": [
+      "Peroxide value",
+      "Visual inspection",
+      "Microbial check"
+    ],
+    "contraindications": "Avoid eye contact",
+    "recommended_dose": "Massage scalp 2-3x/week",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Mineral Drink (Panaka)": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Mineral Drink (Panaka)",
+    "health_category_raw": "Electrolyte imbalance, fatigue",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "5.9 g",
+        "value": 5.9,
+        "unit": "g"
+      },
+      {
+        "name": "Jaggery",
+        "quantity_raw": "9.7 g",
+        "value": 9.7,
+        "unit": "g"
+      },
+      {
+        "name": "Warm water",
+        "quantity_raw": "219.4 ml",
+        "value": 219.4,
+        "unit": "ml"
+      },
+      {
+        "name": "Lemon juice",
+        "quantity_raw": "4.3 ml",
+        "value": 4.3,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Heat water to around 50-60°C.",
+      "Add Kappaphycus powder and stir well until fully dissolved.",
+      "Add jaggery and mix until it melts completely.",
+      "Add lemon juice and stir for 1-2 minutes.",
+      "Filter the drink to remove undissolved particles.",
+      "Serve warm or mildly hot."
+    ],
+    "temperature": "50-60°C",
+    "duration": "15min",
+    "mixing_method": "Gentle",
+    "ph_control": "6",
+    "moisture": "Liquid",
+    "critical_control_points": [
+      "Avoid overheating",
+      "Clean water"
+    ],
+    "quality_control": [
+      "Color",
+      "Taste",
+      "pH"
+    ],
+    "contraindications": "Diabetes: monitor jaggery",
+    "recommended_dose": "150-200 ml/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Digestive Powder (Churna)": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Digestive Powder (Churna)",
+    "health_category_raw": "Constipation, gut health",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Dried Kappaphycus",
+        "quantity_raw": "17.5 g",
+        "value": 17.5,
+        "unit": "g"
+      },
+      {
+        "name": "Dryginger powder",
+        "quantity_raw": "4.2 g",
+        "value": 4.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry the seaweed at 50°C until fully crisp.",
+      "Grind the dried Kappaphycus into a fine powder.",
+      "Add dry ginger powder and mix thoroughly.",
+      "Sieve the powder for even particle size.",
+      "Store in an airtight moisture-free container.",
+      "Keep in a cool and dry environment."
+    ],
+    "temperature": "50°C",
+    "duration": "6h drying",
+    "mixing_method": "Tumble",
+    "ph_control": "6",
+    "moisture": "<10%",
+    "critical_control_points": [
+      "Powder dryness",
+      "Avoid contamination"
+    ],
+    "quality_control": [
+      "Particle size",
+      "Moisture",
+      "Odor"
+    ],
+    "contraindications": "Ginger allergy",
+    "recommended_dose": "1-2 g/day",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Anti-inflammatory Lepa": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Anti-inflammatory Lepa",
+    "health_category_raw": "Swelling, joint pain",
+    "health_category": "Joint & Anti-inflammatory",
+    "ingredients": [
+      {
+        "name": "Kappaphycus gel",
+        "quantity_raw": "16.0 g",
+        "value": 16.0,
+        "unit": "g"
+      },
+      {
+        "name": "Turmeric paste",
+        "quantity_raw": "8.1 g",
+        "value": 8.1,
+        "unit": "g"
+      },
+      {
+        "name": "Sesame oil",
+        "quantity_raw": "4.0 ml",
+        "value": 4.0,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Add Kappaphycus gel and turmeric paste into a bowl.",
+      "Mix both ingredients until they form a smooth, even paste.",
+      "Add sesame oil gradually to improve application smoothness.",
+      "Stir for 5-7 minutes to ensure proper blending.",
+      "Apply evenly on the affected swollen area.",
+      "Leave for 20-30 minutes before washing off."
+    ],
+    "temperature": "25°C",
+    "duration": "Not specified",
+    "mixing_method": "Gentle",
+    "ph_control": "5.5-6",
+    "moisture": "80-85%",
+    "critical_control_points": [
+      "Sterile container",
+      "Avoid contamination"
+    ],
+    "quality_control": [
+      "pH",
+      "Texture",
+      "Microbial test"
+    ],
+    "contraindications": "Patch test recommended",
+    "recommended_dose": "Apply 1-2x/day",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Skin Hydration Drink": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Skin Hydration Drink",
+    "health_category_raw": "Dry skin",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "5.0 g",
+        "value": 5.0,
+        "unit": "g"
+      },
+      {
+        "name": "Warm water",
+        "quantity_raw": "232.8 ml",
+        "value": 232.8,
+        "unit": "ml"
+      },
+      {
+        "name": "Honey",
+        "quantity_raw": "4.1 ml",
+        "value": 4.1,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm water to about 50°C.",
+      "Add Kappaphycus powder and stir until dissolved.",
+      "Add honey and continue mixing.",
+      "Allow the drink to settle for a minute.",
+      "Filter if necessary.",
+      "Drink while warm."
+    ],
+    "temperature": "50°C",
+    "duration": "Not specified",
+    "mixing_method": "Gentle",
+    "ph_control": "6-6.5",
+    "moisture": "Liquid",
+    "critical_control_points": [
+      "Avoid overheating",
+      "Clean water"
+    ],
+    "quality_control": [
+      "Taste",
+      "pH",
+      "Microbial"
+    ],
+    "contraindications": "Allergy to honey: substitute",
+    "recommended_dose": "150 ml/day",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Hydrating Jelly": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Hydrating Jelly",
+    "health_category_raw": "Hydration, mild minerals",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus gel",
+        "quantity_raw": "19.4 g",
+        "value": 19.4,
+        "unit": "g"
+      },
+      {
+        "name": "Fruit juice",
+        "quantity_raw": "106.6 ml",
+        "value": 106.6,
+        "unit": "ml"
+      },
+      {
+        "name": "Sugar",
+        "quantity_raw": "4.7 g",
+        "value": 4.7,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Heat fruit juice to 60-70°C.",
+      "Dissolve sugar fully while stirring.",
+      "Add Kappaphycus gel slowly and mix until evenly blended.",
+      "Pour the mixture into molds while still warm.",
+      "Allow it to cool for 1-2 hours until jelly sets.",
+      "Store in a refrigerator for better firmness."
+    ],
+    "temperature": "60-70°C mixing, 10-15°C cooling",
+    "duration": "15min + 1-2h cooling",
+    "mixing_method": "Gentle",
+    "ph_control": "3.5-4.5",
+    "moisture": "70-75%",
+    "critical_control_points": [
+      "Avoid overheating",
+      "Uniform gel"
+    ],
+    "quality_control": [
+      "Gel firmness",
+      "Color",
+      "Aroma",
+      "Microbial"
+    ],
+    "contraindications": "Avoid if citrus allergy",
+    "recommended_dose": "100 g/day",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Kappaphycus Hydrating Herbal Drink": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Kappaphycus Hydrating Herbal Drink",
+    "health_category_raw": "Hydration Support",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "11.9 g",
+        "value": 11.9,
+        "unit": "g"
+      },
+      {
+        "name": "Warm water",
+        "quantity_raw": "169.1 ml",
+        "value": 169.1,
+        "unit": "ml"
+      },
+      {
+        "name": "Lime",
+        "quantity_raw": "5.2 ml",
+        "value": 5.2,
+        "unit": "ml"
+      },
+      {
+        "name": "Honey",
+        "quantity_raw": "10.6 g",
+        "value": 10.6,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Measure 10 g Kappaphycus powder.",
+      "Heat 150 ml water to 50-60°C.",
+      "Add powder to warm water and stir 2-3 min until fully hydrated.",
+      "Add honey and mix until dissolved.",
+      "Add lime juice and stir gently.",
+      "Serve immediately or store chilled."
+    ],
+    "temperature": "50-60°C(warm water only, not boiling)",
+    "duration": "2-3min mixing",
+    "mixing_method": "Hand stirring until fully dissolved",
+    "ph_control": "7",
+    "moisture": "beverage~92%",
+    "critical_control_points": [
+      "Use potable water",
+      "Avoid clumping",
+      "Prevent microbial growth"
+    ],
+    "quality_control": [
+      "Viscosity check",
+      "pH measurement",
+      "Microbial load"
+    ],
+    "contraindications": "Avoid for iodine/seaweed allergy. \nDiabetics monitor honey intake. \nConsume fresh to avoid contamination.",
+    "recommended_dose": "200-250 ml per day",
+    "season": "wet",
+    "freshness": "stored",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Mineral Soup": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Mineral Soup",
+    "health_category_raw": "Mineral Supplementation",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Kappaphycus",
+        "quantity_raw": "12.3 g",
+        "value": 12.3,
+        "unit": "g"
+      },
+      {
+        "name": "Carrot",
+        "quantity_raw": "28.7 g",
+        "value": 28.7,
+        "unit": "g"
+      },
+      {
+        "name": "Onion",
+        "quantity_raw": "20.8 g",
+        "value": 20.8,
+        "unit": "g"
+      },
+      {
+        "name": "Garlic",
+        "quantity_raw": "4.0 g",
+        "value": 4.0,
+        "unit": "g"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "230.1 ml",
+        "value": 230.1,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Wash and chop vegetables.",
+      "Boil 250 ml water in pot.",
+      "Add chopped vegetables and simmer 10 min.",
+      "Add Kappaphycus and simmer 5-7 min.",
+      "Season to taste.",
+      "Serve hot."
+    ],
+    "temperature": "80-90°C",
+    "duration": "15-17min total",
+    "mixing_method": "occasional stirring",
+    "ph_control": "7",
+    "moisture": "85-90%",
+    "critical_control_points": [
+      "Avoid overcooking seaweed to prevent nutrient loss"
+    ],
+    "quality_control": [
+      "Salt level check",
+      "Visual clarity",
+      "Microbial check"
+    ],
+    "contraindications": "High mineral content  kidney patients consult doctor. \nAvoid excessive salt addition.",
+    "recommended_dose": "1 bowl (250-300 ml), once daily",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Red Algae Smoothie Mix": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Red Algae Smoothie Mix",
+    "health_category_raw": "Antioxidant Support",
+    "health_category": "Immune & Antioxidant Support",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "8.3 g",
+        "value": 8.3,
+        "unit": "g"
+      },
+      {
+        "name": "Banana",
+        "quantity_raw": "1",
+        "value": 1.0,
+        "unit": ""
+      },
+      {
+        "name": "Yogurt",
+        "quantity_raw": "95.8 ml",
+        "value": 95.8,
+        "unit": "ml"
+      },
+      {
+        "name": "Honey",
+        "quantity_raw": "9.2 g",
+        "value": 9.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Peel and slice banana.",
+      "Measure 8 g seaweed powder.",
+      "Add banana, seaweed powder, yogurt, and honey into blender.",
+      "Blend for 1-2 min until smooth.",
+      "Check consistency and adjust with water if needed.",
+      "Serve chilled."
+    ],
+    "temperature": "1.<10°C during prep",
+    "duration": "2.1-2min blending",
+    "mixing_method": "3. high-speed blender",
+    "ph_control": "4.4-5",
+    "moisture": "~90%",
+    "critical_control_points": [
+      "Avoid prolonged blending that may oxidize nutrients"
+    ],
+    "quality_control": [
+      "Texture",
+      "Color",
+      "Microbial load"
+    ],
+    "contraindications": "Not suitable for lactose intolerance (if yogurt used). \nRefrigerate immediately after preparation.",
+    "recommended_dose": "1 serving (200 ml), once daily",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Energy Gel": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Energy Gel",
+    "health_category_raw": "Energy Support",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Kappaphycus gel",
+        "quantity_raw": "20.5 g",
+        "value": 20.5,
+        "unit": "g"
+      },
+      {
+        "name": "Glucose",
+        "quantity_raw": "31.6 g",
+        "value": 31.6,
+        "unit": "g"
+      },
+      {
+        "name": "Fruit puree",
+        "quantity_raw": "21.0 ml",
+        "value": 21.0,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Measure Kappaphycus gel 20 g.",
+      "Add 30 g glucose to gel and stir well.",
+      "Incorporate fruit puree and mix thoroughly.",
+      "Check uniformity of mixture.",
+      "Fill into containers.",
+      "Store in cool, dry place."
+    ],
+    "temperature": "40°C",
+    "duration": "10min",
+    "mixing_method": "moderate stirring",
+    "ph_control": "6",
+    "moisture": "60-65%",
+    "critical_control_points": [
+      "Humidity control to prevent spoilage"
+    ],
+    "quality_control": [
+      "Gel stability",
+      "pH",
+      "Microbial count"
+    ],
+    "contraindications": "High glucose  diabetics use cautiously. \nStore cool to prevent spoilage.",
+    "recommended_dose": "20-40 g before/after exercise",
+    "season": "dry",
+    "freshness": "stored",
+    "harvest_location": "deep",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Fiber Capsules": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Fiber Capsules",
+    "health_category_raw": "Digestive Support",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "DriedKappaphycus powder",
+        "quantity_raw": "501.5 mg",
+        "value": 501.5,
+        "unit": "mg"
+      }
+    ],
+    "preparation_steps": [
+      "Dry Kappaphycus thoroughly.",
+      "Grind to fine powder.",
+      "Sieve to ensure uniform particle size.",
+      "Fill powder into capsules using capsule filler.",
+      "Seal and label capsules.",
+      "Store in dry, cool conditions."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "15min filling",
+    "mixing_method": "tumble mix powder before filling",
+    "ph_control": "N/A",
+    "moisture": "<5%",
+    "critical_control_points": [
+      "Maintain powder dryness",
+      "Uniform capsule filling"
+    ],
+    "quality_control": [
+      "Capsule weight uniformity",
+      "Moisture",
+      "Disintegration test"
+    ],
+    "contraindications": "Drink sufficient water to avoid constipation. \nAvoid intestinal obstruction patients.",
+    "recommended_dose": "1 capsule (500 mg), 1-2 times daily",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Kappa Skin Hydration Mask": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Kappa Skin Hydration Mask",
+    "health_category_raw": "Skin Hydration",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus gel",
+        "quantity_raw": "30.1 g",
+        "value": 30.1,
+        "unit": "g"
+      },
+      {
+        "name": "Aloevera gel",
+        "quantity_raw": "17.4 g",
+        "value": 17.4,
+        "unit": "g"
+      },
+      {
+        "name": "Rose water",
+        "quantity_raw": "9.0 ml",
+        "value": 9.0,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Measure Kappaphycus and aloe gels.",
+      "Blend Kappaphycus gel with aloe gel for 2-3 min.",
+      "Add rose water gradually while stirring.",
+      "Homogenize mixture until uniform.",
+      "Check pH and viscosity.",
+      "Fill into sterile jar and store cold."
+    ],
+    "temperature": "<30°C",
+    "duration": "15-20min",
+    "mixing_method": "high-shear homogenization",
+    "ph_control": "5.5-6",
+    "moisture": "85%",
+    "critical_control_points": [
+      "Water sterility",
+      "Preservative efficacy"
+    ],
+    "quality_control": [
+      "Viscosity",
+      "pH",
+      "Microbial load"
+    ],
+    "contraindications": "External use only. \nPatch test required. \nAvoid broken skin.",
+    "recommended_dose": "Apply 20-30 g, 1-2 times/week",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Body Scrub": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Body Scrub",
+    "health_category_raw": "Skin Exfoliation",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "16.2 g",
+        "value": 16.2,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut oil",
+        "quantity_raw": "47.8 g",
+        "value": 47.8,
+        "unit": "g"
+      },
+      {
+        "name": "Sugar",
+        "quantity_raw": "31.1 g",
+        "value": 31.1,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Melt coconut oil if solid.",
+      "Mix sugar into oil.",
+      "Gradually add seaweed powder.",
+      "Stir until homogeneous.",
+      "Check texture; adjust if needed.",
+      "Package in container."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "10min",
+    "mixing_method": "gentle stir",
+    "ph_control": "N/A",
+    "moisture": "<5%",
+    "critical_control_points": [
+      "Avoid moisture pickup"
+    ],
+    "quality_control": [
+      "Texture",
+      "Microbial load"
+    ],
+    "contraindications": "Avoid sensitive or wounded skin. \nOil may clog acne-prone skin.",
+    "recommended_dose": "Use small amount during bath, 2-3 times/week",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Kappa Hair Growth Serum": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Kappa Hair Growth Serum",
+    "health_category_raw": "Hair Nourishment",
+    "health_category": "Hair & Scalp Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus extract",
+        "quantity_raw": "22.7 ml",
+        "value": 22.7,
+        "unit": "ml"
+      },
+      {
+        "name": "Coconut oil",
+        "quantity_raw": "57.7 ml",
+        "value": 57.7,
+        "unit": "ml"
+      },
+      {
+        "name": "Vitamin E",
+        "quantity_raw": "0.8 ml",
+        "value": 0.8,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Warm coconut oil to 35-40°C.",
+      "Add Kappaphycus extract and stir 3 min.",
+      "Incorporate vitamin E.",
+      "Homogenize mixture.",
+      "Cool to room temperature.",
+      "Fill into amber bottles."
+    ],
+    "temperature": "35-40°C",
+    "duration": "15min",
+    "mixing_method": "gentle stir",
+    "ph_control": "N/A",
+    "moisture": "<0.5%",
+    "critical_control_points": [
+      "Avoid water contamination"
+    ],
+    "quality_control": [
+      "Peroxide value",
+      "Viscosity",
+      "Microbial test"
+    ],
+    "contraindications": "External use only. \nAvoid eye contact. \nStop use if irritation occurs.",
+    "recommended_dose": "3-5 ml applied to scalp, 2-3 times/week",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Mineral Electrolyte Powder": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Mineral Electrolyte Powder",
+    "health_category_raw": "Electrolyte Balance",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "11.9 g",
+        "value": 11.9,
+        "unit": "g"
+      },
+      {
+        "name": "Sugar",
+        "quantity_raw": "19.7 g",
+        "value": 19.7,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "quantity_raw": "1.8 g",
+        "value": 1.8,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Measure ingredients accurately.",
+      "Dry blend powders in mixer 5 min.",
+      "Sieve to remove lumps.",
+      "Pack into sachets.",
+      "Seal airtight.",
+      "Label and store dry."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "5-10min",
+    "mixing_method": "tumble blending",
+    "ph_control": "N/A",
+    "moisture": "<5%",
+    "critical_control_points": [
+      "Prevent moisture pickup"
+    ],
+    "quality_control": [
+      "Powder flow",
+      "Homogeneity",
+      "Microbial test"
+    ],
+    "contraindications": "Monitor sodium intake for hypertension patients. \nNot medical ORS replacement.",
+    "recommended_dose": "Dissolve 10 g in 200-250 ml water",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Herbal Tea": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Herbal Tea",
+    "health_category_raw": "Relaxation Support",
+    "health_category": "Relaxation Support",
+    "ingredients": [
+      {
+        "name": "Dried Kappaphycus flakes",
+        "quantity_raw": "5.8 g",
+        "value": 5.8,
+        "unit": "g"
+      },
+      {
+        "name": "Lemon grass",
+        "quantity_raw": "2.6 g",
+        "value": 2.6,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Place flakes and lemongrass into teapot.",
+      "Boil water to 90°C.",
+      "Pour water over herbs.",
+      "Steep 5-7 min.",
+      "Strain tea.",
+      "Serve hot."
+    ],
+    "temperature": "90°C",
+    "duration": "5-7min",
+    "mixing_method": "N/A",
+    "ph_control": "~6",
+    "moisture": "high",
+    "critical_control_points": [
+      "Avoid scorching"
+    ],
+    "quality_control": [
+      "Aroma",
+      "Color",
+      "Microbial check"
+    ],
+    "contraindications": "Possible herbal allergy (lemongrass sensitive individuals). \nAvoid excessive intake during pregnancy.",
+    "recommended_dose": "1 cup, up to 2 times/day",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Red Algae Protein Balls": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Red Algae Protein Balls",
+    "health_category_raw": "Energy, Fiber/ On-the-go Nutrition",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "18.4 g",
+        "value": 18.4,
+        "unit": "g"
+      },
+      {
+        "name": "Rolled oats",
+        "quantity_raw": "41.0 g",
+        "value": 41.0,
+        "unit": "g"
+      },
+      {
+        "name": "Honey",
+        "quantity_raw": "19.4 g",
+        "value": 19.4,
+        "unit": "g"
+      },
+      {
+        "name": "Nuts",
+        "quantity_raw": "33.5 g",
+        "value": 33.5,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Roast oats lightly for 5 minutes at 100°C.",
+      "Mix Kappaphycus powder and nuts in a bowl.",
+      "Warm honey slightly and add to the dry mix.",
+      "Stir to form a sticky dough.",
+      "Roll into small balls and chill 30 min before serving."
+    ],
+    "temperature": "100°C (roast oats), room temp for mixing",
+    "duration": "10-15min",
+    "mixing_method": "Manual or gentle folding",
+    "ph_control": "N/A",
+    "moisture": "10-15%",
+    "critical_control_points": [
+      "Avoid overheating nuts - bitterness",
+      "Ensure even mixing of powder and honey"
+    ],
+    "quality_control": [
+      "Texture check (not crumbly)",
+      "Taste and appearance",
+      "Microbial test if storing"
+    ],
+    "contraindications": "Contains nuts (allergen warning). \nHigh calorie snack.",
+    "recommended_dose": "1-2 balls/day (?40-50 g total)",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Detox Drink": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Detox Drink",
+    "health_category_raw": "Detox Support",
+    "health_category": "Immune & Antioxidant Support",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "4.7 g",
+        "value": 4.7,
+        "unit": "g"
+      },
+      {
+        "name": "Ginger",
+        "quantity_raw": "4.1 g",
+        "value": 4.1,
+        "unit": "g"
+      },
+      {
+        "name": "Lemon juice",
+        "quantity_raw": "10.2 ml",
+        "value": 10.2,
+        "unit": "ml"
+      },
+      {
+        "name": "Water",
+        "quantity_raw": "112.5 ml",
+        "value": 112.5,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Boil water to 80°C.",
+      "Add ginger and steep 5 min.",
+      "Add Kappaphycus powder and stir until dissolved.",
+      "Add lemon juice and mix gently.",
+      "Serve warm or chill for later consumption."
+    ],
+    "temperature": "80°C water for steeping",
+    "duration": "5-10min",
+    "mixing_method": "Gentle",
+    "ph_control": "4-5 after lemon addition",
+    "moisture": "High(beverage)",
+    "critical_control_points": [
+      "Avoid boiling Kappaphycus - nutrient loss",
+      "Fresh water and lemon for flavor and hygiene"
+    ],
+    "quality_control": [
+      "pH test",
+      "Color and aroma",
+      "Microbial safety check"
+    ],
+    "contraindications": "Acidic due to lemon  gastritis patients limit intake. \nConsume fresh.",
+    "recommended_dose": "100-150 ml once daily",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Sea Moss Jelly": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Sea Moss Jelly",
+    "health_category_raw": "Gut Support",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus gel",
+        "quantity_raw": "17.0 g",
+        "value": 17.0,
+        "unit": "g"
+      },
+      {
+        "name": "Fruit juice",
+        "quantity_raw": "94.7 ml",
+        "value": 94.7,
+        "unit": "ml"
+      },
+      {
+        "name": "Sugar(optional)",
+        "quantity_raw": "5.8 g",
+        "value": 5.8,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Heat fruit juice to 60-70°C.",
+      "Add sugar and stir until dissolved.",
+      "Gradually add Kappaphycus gel while stirring.",
+      "Pour mixture into molds.",
+      "Cool at 10-15°C until set."
+    ],
+    "temperature": "60-70°C for mixture",
+    "duration": "10-15min mixing, cooling1-2h",
+    "mixing_method": "Gentle stirring",
+    "ph_control": "3.5-4.5",
+    "moisture": "70-75%",
+    "critical_control_points": [
+      "Avoid overheating - gel degradation",
+      "Ensure uniform mixing",
+      "Maintain hygienic mold filling"
+    ],
+    "quality_control": [
+      "Gel firmness test",
+      "Color and aroma check",
+      "Microbial test"
+    ],
+    "contraindications": "High sugar if added  diabetics monitor intake. \nRefrigerate after preparation.",
+    "recommended_dose": "1 serving (80-100 g) daily",
+    "season": "dry",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Red Algae Facial Toner": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Red Algae Facial Toner",
+    "health_category_raw": "Skin Support",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus extract",
+        "quantity_raw": "31.9 ml",
+        "value": 31.9,
+        "unit": "ml"
+      },
+      {
+        "name": "Distilled water",
+        "quantity_raw": "64.6 ml",
+        "value": 64.6,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Filter Kappaphycus extract to remove solids.",
+      "Mix extract with distilled water at room temperature.",
+      "Homogenize gently for 5 min.",
+      "Adjust pH to 5.5-6 using citric acid if needed.",
+      "Bottle in sterilized containers."
+    ],
+    "temperature": "25°C",
+    "duration": "5-10min mixing",
+    "mixing_method": "Gentle",
+    "ph_control": "5.5-6",
+    "moisture": "95-100%",
+    "critical_control_points": [
+      "Sterile water and containers",
+      "Avoid microbial contamination",
+      "Ensure pH adjustment"
+    ],
+    "quality_control": [
+      "pH measurement",
+      "Microbial test",
+      "Visual clarity"
+    ],
+    "contraindications": "External use only. \nPatch test required. \nMaintain sterility.",
+    "recommended_dose": "Spray/apply twice daily",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Mineral Broth Powder": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Mineral Broth Powder",
+    "health_category_raw": "Mineral Supplementation",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Dried Kappaphycus powder",
+        "quantity_raw": "18.2 g",
+        "value": 18.2,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Dry Kappaphycus powder at 45-55°C until moisture <10%.",
+      "Grind into fine powder (200-300 microns).",
+      "Sieve to ensure uniform particle size.",
+      "Tumble blend to ensure homogeneity.",
+      "Pack into air-tight moisture-proof containers."
+    ],
+    "temperature": "45-55°C drying",
+    "duration": "6-10h",
+    "mixing_method": "Tumble for uniformity",
+    "ph_control": "N/A",
+    "moisture": "<10%",
+    "critical_control_points": [
+      "Ensure complete drying",
+      "Avoid moisture ingress during packing",
+      "Prevent contamination"
+    ],
+    "quality_control": [
+      "Moisture content",
+      "Particle size uniformity",
+      "Visual inspection"
+    ],
+    "contraindications": "Avoid excessive mineral intake alongside supplements. \nStore dry.",
+    "recommended_dose": "5-10 g per serving mixed with hot water",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Instant Soup Sachet": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Instant Soup Sachet",
+    "health_category_raw": "Immune Support",
+    "health_category": "Immune & Antioxidant Support",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "9.0 g",
+        "value": 9.0,
+        "unit": "g"
+      },
+      {
+        "name": "Dried herbs (thyme, parsley)",
+        "quantity_raw": "1.8 g",
+        "value": 1.8,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "quantity_raw": "1.0 g",
+        "value": 1.0,
+        "unit": "g"
+      },
+      {
+        "name": "Vegetable powder",
+        "quantity_raw": "6.0 g",
+        "value": 6.0,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Grind Kappaphycus and vegetable powders finely.",
+      "Mix all dry ingredients in a clean bowl.",
+      "Sieve to remove clumps and ensure uniformity.",
+      "Tumble blend for 5-10 minutes.",
+      "Pack into air-tight, moisture-proof sachets."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "10min mixing",
+    "mixing_method": "Tumble blending",
+    "ph_control": "7",
+    "moisture": "<10%",
+    "critical_control_points": [
+      "Avoid moisture pickup",
+      "Ensure homogenous mixing",
+      "Maintain hygienic packing"
+    ],
+    "quality_control": [
+      "Moisture content <10%",
+      "Particle size uniformity",
+      "Visual inspection"
+    ],
+    "contraindications": "Contains salt  hypertension patients limit intake.",
+    "recommended_dose": "1 sachet per 250 ml hot water",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Kappa Hydration Jelly Cubes": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Kappa Hydration Jelly Cubes",
+    "health_category_raw": "Hydration Support",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus gel",
+        "quantity_raw": "17.1 g",
+        "value": 17.1,
+        "unit": "g"
+      },
+      {
+        "name": "Fruit juice",
+        "quantity_raw": "111.6 ml",
+        "value": 111.6,
+        "unit": "ml"
+      },
+      {
+        "name": "Sugar",
+        "quantity_raw": "4.1 g",
+        "value": 4.1,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Heat fruit juice to 60-70°C.",
+      "Dissolve sugar in the warm juice.",
+      "Gradually add Kappaphycus gel while stirring gently.",
+      "Pour mixture into molds.",
+      "Cool at 10-15°C until gel sets."
+    ],
+    "temperature": "60-70°C mixing, 10-15°C cooling",
+    "duration": "10-15min mixing + 1-2h cooling",
+    "mixing_method": "Gentle",
+    "ph_control": "3.5-4.5",
+    "moisture": "70-75%",
+    "critical_control_points": [
+      "Avoid overheating - gel breakdown",
+      "Ensure hygienic mold filling",
+      "Uniform gel distribution"
+    ],
+    "quality_control": [
+      "Gel firmness",
+      "Color and aroma check",
+      "Microbial safety"
+    ],
+    "contraindications": "High sugar variants should be limited for diabetics. \nKeep refrigerated.",
+    "recommended_dose": "2-3 cubes per serving",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Red Algae Pickle": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Red Algae Pickle",
+    "health_category_raw": "Gut Microbiome Support",
+    "health_category": "Digestive Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus pieces",
+        "quantity_raw": "23.5 g",
+        "value": 23.5,
+        "unit": "g"
+      },
+      {
+        "name": "Vinegar",
+        "quantity_raw": "57.9 ml",
+        "value": 57.9,
+        "unit": "ml"
+      },
+      {
+        "name": "Garlic",
+        "quantity_raw": "5.7 g",
+        "value": 5.7,
+        "unit": "g"
+      },
+      {
+        "name": "Salt",
+        "quantity_raw": "0.9 g",
+        "value": 0.9,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Wash Kappaphycus thoroughly and chop into small pieces.",
+      "Prepare brine with vinegar, garlic, and salt.",
+      "Mix seaweed pieces into brine.",
+      "Pack into sterilized jars.",
+      "Ferment 24-48 hours at room temperature."
+    ],
+    "temperature": "25-30°C (fermentation)",
+    "duration": "24-48h",
+    "mixing_method": "Gentle",
+    "ph_control": "<4",
+    "moisture": "High",
+    "critical_control_points": [
+      "Ensure jars are sterilized",
+      "Control fermentation temperature",
+      "Avoid contamination"
+    ],
+    "quality_control": [
+      "pH measurement",
+      "Taste and aroma evaluation",
+      "Microbial testing"
+    ],
+    "contraindications": "High acidity & salt  avoid for gastric ulcers or hypertension.",
+    "recommended_dose": "10-20 g as side portion",
+    "season": "wet",
+    "freshness": "stored",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Salt Substitute": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Salt Substitute",
+    "health_category_raw": "Mineral Supplement",
+    "health_category": "Energy & Mineral Supplementation",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "8.2 g",
+        "value": 8.2,
+        "unit": "g"
+      },
+      {
+        "name": "Dried herbs (optional)",
+        "quantity_raw": "2.1 g",
+        "value": 2.1,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Grind Kappaphycus powder into fine consistency.",
+      "Sieve to remove large particles.",
+      "Blend with dried herbs if used.",
+      "Pack into airtight containers."
+    ],
+    "temperature": "Ambient (Room Temp ~25°C)",
+    "duration": "5-10min",
+    "mixing_method": "Tumble blending",
+    "ph_control": "N/A",
+    "moisture": "<5%",
+    "critical_control_points": [
+      "Avoid moisture - clumping",
+      "Ensure uniform blending"
+    ],
+    "quality_control": [
+      "Visual inspection",
+      "Particle size check",
+      "Moisture content test"
+    ],
+    "contraindications": "Still contains natural sodium, not sodium-free.",
+    "recommended_dose": "Use as normal salt replacement (?5 g/day)",
+    "season": "dry",
+    "freshness": "dried",
+    "harvest_location": "deep",
+    "quality_label": "High Quality"
+  },
+  "Kappaphycus Alvarezii||Seaweed Hydration Spray": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Seaweed Hydration Spray",
+    "health_category_raw": "Skin Hydration",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus extract",
+        "quantity_raw": "29.8 ml",
+        "value": 29.8,
+        "unit": "ml"
+      },
+      {
+        "name": "Distilled water",
+        "quantity_raw": "61.7 ml",
+        "value": 61.7,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Filter Kappaphycus extract to remove solids.",
+      "Mix extract with distilled water at room temperature.",
+      "Homogenize gently for 5-10 minutes.",
+      "Adjust pH to 5.5-6 using citric acid if necessary.",
+      "Fill into sterilized spray bottles."
+    ],
+    "temperature": "25°C",
+    "duration": "5-10min",
+    "mixing_method": "Gentle",
+    "ph_control": "5.5-6",
+    "moisture": "95-100%",
+    "critical_control_points": [
+      "Sterility of water and bottles",
+      "Prevent microbial contamination",
+      "Ensure uniform mixing"
+    ],
+    "quality_control": [
+      "pH measurement",
+      "Microbial test",
+      "Spray function check"
+    ],
+    "contraindications": "External use only. \nAvoid eyes. \nMaintain sterile storage.",
+    "recommended_dose": "Spray 2-3 times daily",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  },
+  "Kappaphycus Alvarezii||Kappa Herbal Toothpaste": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Kappa Herbal Toothpaste",
+    "health_category_raw": "Oral Cleanliness",
+    "health_category": "Oral Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus powder",
+        "quantity_raw": "5.0 g",
+        "value": 5.0,
+        "unit": "g"
+      },
+      {
+        "name": "Coconut oil",
+        "quantity_raw": "10.1 g",
+        "value": 10.1,
+        "unit": "g"
+      },
+      {
+        "name": "Mint extract",
+        "quantity_raw": "1.0 g",
+        "value": 1.0,
+        "unit": "g"
+      }
+    ],
+    "preparation_steps": [
+      "Melt coconut oil at 30°C.",
+      "Add Kappaphycus powder gradually while stirring.",
+      "Mix until uniform paste forms.",
+      "Add mint extract and blend.",
+      "Pack into sterilized toothpaste tubes."
+    ],
+    "temperature": "25-30°C",
+    "duration": "10-15min",
+    "mixing_method": "Low-shear",
+    "ph_control": "7",
+    "moisture": "<5%",
+    "critical_control_points": [
+      "Avoid moisture contamination",
+      "Uniform paste consistency"
+    ],
+    "quality_control": [
+      "Texture and homogeneity",
+      "Odor test",
+      "Microbial safety"
+    ],
+    "contraindications": "Do not swallow large quantities. \nDiscontinue if irritation occurs.",
+    "recommended_dose": "Pea-sized amount, twice daily",
+    "season": "wet",
+    "freshness": "dried",
+    "harvest_location": "shallow",
+    "quality_label": "Lower Quality"
+  },
+  "Kappaphycus Alvarezii||Red Algae Facial Cleanser": {
+    "seaweed_type": "Kappaphycus Alvarezii",
+    "name": "Red Algae Facial Cleanser",
+    "health_category_raw": "Skin Smoothening",
+    "health_category": "Skin Health",
+    "ingredients": [
+      {
+        "name": "Kappaphycus extract",
+        "quantity_raw": "20.0 ml",
+        "value": 20.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Mild surfactant solution",
+        "quantity_raw": "11.1 ml",
+        "value": 11.1,
+        "unit": "ml"
+      },
+      {
+        "name": "Glycerin",
+        "quantity_raw": "4.6 ml",
+        "value": 4.6,
+        "unit": "ml"
+      }
+    ],
+    "preparation_steps": [
+      "Mix Kappaphycus extract with glycerin.",
+      "Add surfactant solution slowly under gentle stirring.",
+      "Homogenize for 5 minutes.",
+      "Adjust pH to 5-6.",
+      "Fill into sterilized bottles."
+    ],
+    "temperature": "25°C",
+    "duration": "5-10min",
+    "mixing_method": "Gentle homogenization",
+    "ph_control": "6",
+    "moisture": "~95%",
+    "critical_control_points": [
+      "Sterile containers and water",
+      "Avoid foaming too much during mixing"
+    ],
+    "quality_control": [
+      "pH check",
+      "Viscosity",
+      "Microbial limits"
+    ],
+    "contraindications": "External use only. \nPatch test for sensitive skin.",
+    "recommended_dose": "Use twice daily during face washing",
+    "season": "wet",
+    "freshness": "fresh",
+    "harvest_location": "shallow",
+    "quality_label": "Medium Quality"
+  }
+}

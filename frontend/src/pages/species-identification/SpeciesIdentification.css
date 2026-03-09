@@ -1,0 +1,538 @@
+/* ============================================================
+   SpeciesIdentification.css
+   Matches the Growth Monitoring (Prediction.css) design system
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Mono:wght@400;500&display=swap');
+
+/* ── Page ─────────────────────────────────────────────────── */
+.si-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #f0f7f5;
+  animation: si-fadeUp 0.45s ease both;
+}
+
+@keyframes si-fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Header ───────────────────────────────────────────────── */
+.si-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+  padding: 22px 40px;
+  background: linear-gradient(135deg, #0d5c4a 0%, #1a7a63 100%);
+  box-shadow: 0 4px 20px rgba(13, 94, 74, 0.20);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.si-header::before,
+.si-header::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  pointer-events: none;
+}
+.si-header::before { width: 220px; height: 220px; top: -80px; right: 60px; }
+.si-header::after  { width: 140px; height: 140px; bottom: -60px; right: 200px; }
+
+.si-header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 1;
+}
+
+.si-header-icon {
+  width: 52px; height: 52px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  backdrop-filter: blur(4px);
+  flex-shrink: 0;
+}
+
+.si-header-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 4px;
+  letter-spacing: -0.5px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.si-header-sub {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+  font-weight: 400;
+}
+
+.si-header-badge {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  padding: 7px 14px;
+  border-radius: 99px;
+  backdrop-filter: blur(4px);
+  z-index: 1;
+}
+
+.si-badge-dot {
+  width: 7px; height: 7px;
+  background: #2ec97e;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px rgba(46, 201, 126, 0.35);
+  animation: si-pulse 2s ease infinite;
+}
+
+@keyframes si-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(46, 201, 126, 0.35); }
+  50%      { box-shadow: 0 0 0 5px rgba(46, 201, 126, 0.15); }
+}
+
+@media (max-width: 600px) {
+  .si-header { flex-direction: column; align-items: flex-start; gap: 14px; padding: 18px; }
+  .si-header-title { font-size: 20px; }
+}
+
+/* ── Section ──────────────────────────────────────────────── */
+.si-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 28px 72px;
+}
+
+/* ── Card Grid ────────────────────────────────────────────── */
+.si-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 860px) { .si-card-grid { grid-template-columns: 1fr; } }
+
+/* ── Card ─────────────────────────────────────────────────── */
+.si-card {
+  background: #ffffff;
+  border: 1px solid #c8e8e0;
+  border-radius: 20px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(13, 94, 74, 0.10);
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.22s cubic-bezier(0.4, 0, 0.2, 1),
+              transform 0.22s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.si-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #0f6b56, #3dbda0);
+  border-radius: 20px 20px 0 0;
+}
+
+.si-card:hover { box-shadow: 0 8px 32px rgba(13, 94, 74, 0.16); transform: translateY(-2px); }
+
+.si-card h3 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  color: #0d2e28;
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 1.5px solid #c8e8e0;
+  letter-spacing: -0.3px;
+}
+
+/* ── Dropzone ─────────────────────────────────────────────── */
+.si-dropzone {
+  border: 2px dashed #c8e8e0;
+  border-radius: 14px;
+  padding: 40px 20px;
+  text-align: center;
+  cursor: pointer;
+  background: #f5fbf9;
+  transition: border-color 0.2s, background 0.2s;
+  margin-bottom: 16px;
+}
+
+.si-dropzone:hover,
+.si-dropzone-active {
+  border-color: #2a9d82;
+  background: #e6f7f3;
+}
+
+.si-dropzone-has-image {
+  padding: 12px;
+}
+
+.si-dropzone-content { pointer-events: none; }
+
+.si-dropzone-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+  opacity: 0.7;
+}
+
+.si-dropzone-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #0d2e28;
+  margin: 0 0 4px;
+}
+
+.si-dropzone-sub {
+  font-size: 12px;
+  color: #8ab5aa;
+  margin: 0;
+}
+
+.si-preview-img {
+  max-width: 100%;
+  max-height: 280px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+/* ── Error ─────────────────────────────────────────────────── */
+.si-error-msg {
+  background: #fff5f5;
+  border: 1px solid #feb2b2;
+  color: #c53030;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+/* ── Buttons ──────────────────────────────────────────────── */
+.si-btn-row {
+  display: flex;
+  gap: 12px;
+}
+
+.si-btn-primary {
+  flex: 1;
+  padding: 12px 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #0f6b56, #2a9d82);
+  box-shadow: 0 4px 14px rgba(15, 107, 86, 0.35);
+  transition: transform 0.15s, box-shadow 0.15s, filter 0.15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.si-btn-primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  filter: brightness(1.06);
+}
+
+.si-btn-primary:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.si-btn-secondary {
+  padding: 12px 20px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #4a7a6d;
+  background: #e6f7f3;
+  border: 1px solid #c8e8e0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.si-btn-secondary:hover {
+  background: #c8e8e0;
+  color: #0d5c4a;
+}
+
+/* ── Spinner ──────────────────────────────────────────────── */
+.si-spinner {
+  display: inline-block;
+  width: 16px; height: 16px;
+  border: 2.5px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: si-spin 0.6s linear infinite;
+}
+
+@keyframes si-spin { to { transform: rotate(360deg); } }
+
+/* ── Placeholder (no results yet) ─────────────────────────── */
+.si-placeholder {
+  text-align: center;
+  padding: 60px 20px;
+  color: #8ab5aa;
+}
+
+.si-placeholder-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+  opacity: 0.6;
+}
+
+.si-placeholder p {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* ── Result Blocks ────────────────────────────────────────── */
+.si-result-block {
+  margin-bottom: 24px;
+}
+
+.si-result-block h4 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0d2e28;
+  margin: 0 0 12px;
+}
+
+.si-result-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.si-species-name {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0d5c4a;
+  letter-spacing: -0.3px;
+}
+
+.si-health-status {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.si-healthy { color: #16a34a; }
+.si-unhealthy { color: #dc2626; }
+
+.si-health-species {
+  font-size: 14px;
+  color: #4a7a6d;
+  font-weight: 500;
+}
+
+/* ── Confidence Badge ─────────────────────────────────────── */
+.si-conf-badge {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 99px;
+}
+
+.si-conf-high { background: #dcfce7; color: #16a34a; }
+.si-conf-mid  { background: #fef9c3; color: #a16207; }
+.si-conf-low  { background: #fee2e2; color: #dc2626; }
+
+/* ── Alert ────────────────────────────────────────────────── */
+.si-alert {
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 13px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.si-alert-warning {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+}
+
+/* ── Confidence Bar ───────────────────────────────────────── */
+.si-conf-bar-wrap {
+  margin-bottom: 14px;
+}
+
+.si-conf-bar-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: 700;
+  color: #4a7a6d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.si-conf-bar-track {
+  width: 100%;
+  height: 10px;
+  background: #e6f7f3;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.si-conf-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.5s ease;
+}
+
+.si-conf-bar-fill.si-conf-high { background: linear-gradient(90deg, #22c55e, #16a34a); }
+.si-conf-bar-fill.si-conf-mid  { background: linear-gradient(90deg, #fbbf24, #f59e0b); }
+.si-conf-bar-fill.si-conf-low  { background: linear-gradient(90deg, #f87171, #dc2626); }
+
+/* ── Probability Bars ─────────────────────────────────────── */
+.si-prob-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #c8e8e0;
+}
+
+.si-prob-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #8ab5aa;
+  margin: 0 0 10px;
+}
+
+.si-prob-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+.si-prob-label {
+  width: 140px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #0d2e28;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.si-prob-track {
+  flex: 1;
+  height: 8px;
+  background: #e6f7f3;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.si-prob-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3dbda0, #0f6b56);
+  border-radius: 99px;
+  transition: width 0.5s ease;
+}
+
+.si-prob-val {
+  width: 48px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #4a7a6d;
+  font-family: 'DM Mono', monospace;
+}
+
+/* ── History Card ─────────────────────────────────────────── */
+.si-history-card {
+  margin-top: 24px;
+}
+
+.si-table-wrap {
+  overflow-x: auto;
+}
+
+.si-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.si-table th {
+  text-align: left;
+  padding: 10px 14px;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #4a7a6d;
+  background: #f5fbf9;
+  border-bottom: 2px solid #c8e8e0;
+}
+
+.si-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e6f7f3;
+  color: #0d2e28;
+}
+
+.si-table tbody tr:hover {
+  background: #f5fbf9;
+}
+
+.si-td-filename {
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  color: #4a7a6d;
+}
+
+/* ── Pills ────────────────────────────────────────────────── */
+.si-pill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 99px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.si-pill-teal  { background: #e6f7f3; color: #0d5c4a; }
+.si-pill-green { background: #dcfce7; color: #16a34a; }
+.si-pill-red   { background: #fee2e2; color: #dc2626; }
+.si-pill-warn  { background: #fef9c3; color: #a16207; }
+
+/* ── Responsive ───────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .si-section { padding: 16px 12px 48px; }
+  .si-card { padding: 20px; }
+  .si-prob-label { width: 100px; font-size: 11px; }
+  .si-btn-row { flex-direction: column; }
+}
